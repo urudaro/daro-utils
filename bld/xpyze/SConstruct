@@ -1,0 +1,14 @@
+import os
+# Create a SCons environment with the SystemAssembler tool
+env = Environment(ENV = os.environ, tools = ['default', 'SystemAssembler'])
+env.Append (arguments = ARGUMENTS)
+
+# Since the SystemAssembler tool wants a directory as its target we need to 
+# make sure we explicitly convert the directory name to a SCons directory node.
+# Otherwise SCons will try to convert the target name to a SCons file node,
+# which will fail.
+
+system_target = env.Dir ("xpyze-0.1")
+env.SystemAssemble (system_target, "xpyze.sas")
+
+# targets = env.SystemAssemble ("xpyze.sas")

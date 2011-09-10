@@ -1,0 +1,1353 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:retrieveLmProduktResponse xmlns:ns2="http://se.inera.sil.silver">
+            <lmProduktResult>
+                <nplId>20060621000173</nplId><produktnamn>Neurontin</produktnamn><antidot>N</antidot><atcKod>N03AX12</atcKod><avvikelseParallellImport>Inga avvikelser.</avvikelseParallellImport><ddd>1.80</ddd><dosBryttillstand>N</dosBryttillstand><dosBryttillstandHallbar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <doseringsenhet>-</doseringsenhet><enhetDdd>g</enhetDdd><enhetStyrka>64</enhetStyrka><godkannandeDatum>2007-03-02T00:00:00+01:00</godkannandeDatum><godkannandeProcedur>1</godkannandeProcedur><godkannandenr>239470</godkannandenr><lakemedelsform>CAPHAR</lakemedelsform><lakemedelsformGrupp>OSD</lakemedelsformGrupp><narkotikaKlass>0</narkotikaKlass><originalNplid>19940325000027</originalNplid><parallellimportFran>ITA</parallellimportFran><sarskildaLakemedel>1</sarskildaLakemedel><styrka>400.000</styrka><styrkaKlartext>400 mg</styrkaKlartext><tillhandahalls>N</tillhandahalls><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <utbytbar>Y</utbytbar><veterinarlakemedel>N</veterinarlakemedel><asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <gruppvarunummerLx>N</gruppvarunummerLx><innehallerLaktosLx>Y</innehallerLaktosLx><innehallerLatexLx>N</innehallerLatexLx><lakemedel>Y</lakemedel><produktKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <produktTyp>MEP</produktTyp><receptbelagdLx>1</receptbelagdLx><version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <produktUtbytbarheter>
+                    <gfromDatum>2011-07-08T00:00:00+02:00</gfromDatum><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <utbytbarhetFormGruppLx>197</utbytbarhetFormGruppLx><utbytbarhetStyrkaGruppLx>319</utbytbarhetStyrkaGruppLx><utbytbarhetSubstansGruppLx>165</utbytbarhetSubstansGruppLx>
+                </produktUtbytbarheter>
+                <farmaceutiskaProdukter>
+                    <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><pharmaceuticalProductIdNpl>ID1FNAFFJ19X4SM1MS</pharmaceuticalProductIdNpl><refererandeMangdLx>FGE</refererandeMangdLx>
+                    <bestandsdelar>
+                        <bestandsdelEnhetLx>03</bestandsdelEnhetLx><bestandsdelMangd>400.0000000000</bestandsdelMangd><bestandsdelRollLx>ACTI</bestandsdelRollLx><bestandsdelTillaggsenhetLx>EQ</bestandsdelTillaggsenhetLx>
+                        <bestandsdelSubstans>
+                            <substansId>id8272925a</substansId><casNummer>60142-96-3</casNummer><innNamn>gabapentin</innNamn><nplsubstansid>IDE4POF8UASQ5VERT1</nplsubstansid>
+                        </bestandsdelSubstans>
+                    </bestandsdelar>
+                </farmaceutiskaProdukter>
+                <tillaggsnamn>
+                    <gfromDatum>2010-04-07T00:00:00+02:00</gfromDatum><produktnamnTypLx>medprodnamelegal</produktnamnTypLx><namn>Neurontin</namn><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </tillaggsnamn>
+                <tillaggsnamn>
+                    <gfromDatum>2010-04-07T00:00:00+02:00</gfromDatum><produktnamnTypLx>tradename</produktnamnTypLx><namn>Neurontin</namn><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </tillaggsnamn>
+                <produktIntressenter>
+                    <intressentRollLx>MAH</intressentRollLx><namn>Orifarm AB</namn>
+                    <intressentAdress>
+                        <adress1>Box 50231</adress1><adress2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <adress3>202 12</adress3><adress4>Malmö</adress4><landKod>SWE</landKod>
+                    </intressentAdress>
+                </produktIntressenter>
+                <lmArtiklar>
+                    <nplpackid>20070223100157</nplpackid><artikelUtbytbarLx>Y</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <dddPerForpackning>11.110</dddPerForpackning><tillhandahallsLx>N</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalKlartext>50 kapsel/kapslar</antalKlartext><antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>CAPS</antalNumeriskEnhetLx><antalNumeriskt>50.000</antalNumeriskt><artikelBenamning>Neurontin, Kapsel, hård 400 mg Orifarm AB</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>Y</formanLx><forpackningText>Blister, 50 kapslar</forpackningText><forpackningsTypInreLx>BLI</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <pristypLx>PARIMP</pristypLx><receptbelagdLx>Y</receptbelagdLx><varunummer>004250</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>nordiskt-varunr</artikelIdTypLx><gfromDatum>2007-02-23T00:00:00+01:00</gfromDatum><idVarde>004250</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>ean-code</artikelIdTypLx><gfromDatum>2007-02-23T00:00:00+01:00</gfromDatum><idVarde>07046260042506</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <priser>
+                        <aip>359.00</aip><aup>413.00</aup><gfromDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </priser>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>-</antalNumerisktEnhet><antalNumeriskt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <pharmaceuticalProductIdNpl>ID1FNAFFJ19X4SM1MS</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <forvaringsfall>
+                        <forvaringsTemperaturLx>2</forvaringsTemperaturLx><forvaringsfallTypLx>1</forvaringsfallTypLx><forvaringssattLx>-</forvaringssattLx><hallbarhet>3</hallbarhet><hallbarhetEnhetLx>5</hallbarhetEnhetLx>
+                    </forvaringsfall>
+                    <validationFailed>false</validationFailed><validationFailedRules/>
+                    <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>false</updatedSinceDelivery><exportable>true</exportable>
+                </lmArtiklar>
+                <lmArtiklar>
+                    <nplpackid>20070223100164</nplpackid><artikelUtbytbarLx>Y</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <dddPerForpackning>22.220</dddPerForpackning><tillhandahallsLx>N</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalKlartext>100 kapsel/kapslar</antalKlartext><antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>CAPS</antalNumeriskEnhetLx><antalNumeriskt>100.000</antalNumeriskt><artikelBenamning>Neurontin, Kapsel, hård 400 mg Orifarm AB</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>Y</formanLx><forpackningText>Blister, 100 kapslar</forpackningText><forpackningsTypInreLx>BLI</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <pristypLx>PARIMP</pristypLx><receptbelagdLx>Y</receptbelagdLx><varunummer>004271</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>nordiskt-varunr</artikelIdTypLx><gfromDatum>2007-02-23T00:00:00+01:00</gfromDatum><idVarde>004271</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>ean-code</artikelIdTypLx><gfromDatum>2007-02-23T00:00:00+01:00</gfromDatum><idVarde>07046260042711</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <priser>
+                        <aip>799.00</aip><aup>862.00</aup><gfromDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </priser>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>-</antalNumerisktEnhet><antalNumeriskt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <pharmaceuticalProductIdNpl>ID1FNAFFJ19X4SM1MS</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <forvaringsfall>
+                        <forvaringsTemperaturLx>2</forvaringsTemperaturLx><forvaringsfallTypLx>1</forvaringsfallTypLx><forvaringssattLx>-</forvaringssattLx><hallbarhet>3</hallbarhet><hallbarhetEnhetLx>5</hallbarhetEnhetLx>
+                    </forvaringsfall>
+                    <validationFailed>false</validationFailed><validationFailedRules/>
+                    <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>false</updatedSinceDelivery><exportable>true</exportable>
+                </lmArtiklar>
+                <validationFailed>false</validationFailed><validationFailedRules/>
+                <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>true</updatedSinceDelivery><exportable>true</exportable>
+            </lmProduktResult>
+            <lmProduktResult>
+                <nplId>20091105000310</nplId><produktnamn>Cisordinol®</produktnamn><antidot>N</antidot><atcKod>N05AF05</atcKod><avvikelseParallellImport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <ddd>30.00</ddd><dosBryttillstand>N</dosBryttillstand><dosBryttillstandHallbar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <doseringsenhet>-</doseringsenhet><enhetDdd>mg</enhetDdd><enhetStyrka>64</enhetStyrka><godkannandeDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <godkannandeProcedur>APL</godkannandeProcedur><godkannandenr xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <lakemedelsform>FICOTA</lakemedelsform><lakemedelsformGrupp>OSD</lakemedelsformGrupp><narkotikaKlass>0</narkotikaKlass><originalNplid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <parallellimportFran xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <sarskildaLakemedel>1</sarskildaLakemedel><styrka>10.000</styrka><styrkaKlartext>10 mg</styrkaKlartext><tillhandahalls>Y</tillhandahalls><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <utbytbar>N</utbytbar><veterinarlakemedel>N</veterinarlakemedel><asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <gruppvarunummerLx>N</gruppvarunummerLx><innehallerLaktosLx>-</innehallerLaktosLx><innehallerLatexLx>N</innehallerLatexLx><lakemedel>Y</lakemedel><produktKommentar>Apoteket AB Produktion &amp; Laboratorier (APL)</produktKommentar><produktTyp>APL</produktTyp><receptbelagdLx>1</receptbelagdLx><version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <tillaggsnamn>
+                    <gfromDatum>2010-04-07T00:00:00+02:00</gfromDatum><produktnamnTypLx>tradename</produktnamnTypLx><namn>Cisordinol®</namn><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </tillaggsnamn>
+                <produktIntressenter>
+                    <intressentRollLx>SBANSF</intressentRollLx><namn>Apoteket AB Produktion &amp; Laboratorier (APL)</namn>
+                    <intressentAdress>
+                        <adress1>Prismavägen 2</adress1><adress2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <adress3>141 75</adress3><adress4>Stockholm</adress4><landKod>SWE</landKod>
+                    </intressentAdress>
+                </produktIntressenter>
+                <lmArtiklar>
+                    <nplpackid>20091105100157</nplpackid><artikelUtbytbarLx>N</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <dddPerForpackning>16.670</dddPerForpackning><tillhandahallsLx>Y</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalKlartext>50 x 1 styck</antalKlartext><antalMultipel1>50</antalMultipel1><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>ST</antalNumeriskEnhetLx><antalNumeriskt>1.000</antalNumeriskt><artikelBenamning>Cisordinol fdr tabl 10mg PES</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>N</formanLx><forpackningText>Blister, 50 x 1 styck</forpackningText><forpackningsTypInreLx>BLI</forpackningsTypInreLx><forsaljningsRestriktionLx>2</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <pristypLx>-</pristypLx><receptbelagdLx>Y</receptbelagdLx><varunummer>320366</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>historiskt-ean-code</artikelIdTypLx><gfromDatum>2009-11-05T00:00:00+01:00</gfromDatum><idVarde>07313273203669</idVarde><tomDatum>2010-10-29T00:00:00+02:00</tomDatum>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>ean-code</artikelIdTypLx><gfromDatum>2010-10-30T00:00:00+02:00</gfromDatum><idVarde>07322833203667</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>nordiskt-varunr</artikelIdTypLx><gfromDatum>2009-11-05T00:00:00+01:00</gfromDatum><idVarde>320366</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <forvaringsfall>
+                        <forvaringsTemperaturLx>1</forvaringsTemperaturLx><forvaringsfallTypLx>1</forvaringsfallTypLx><forvaringssattLx>-</forvaringssattLx><hallbarhet>6</hallbarhet><hallbarhetEnhetLx>4</hallbarhetEnhetLx>
+                    </forvaringsfall>
+                    <validationFailed>false</validationFailed><validationFailedRules/>
+                    <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>true</updatedSinceDelivery><exportable>true</exportable>
+                </lmArtiklar>
+                <validationFailed>false</validationFailed><validationFailedRules/>
+                <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>true</updatedSinceDelivery><exportable>true</exportable>
+            </lmProduktResult>
+            <lmProduktResult>
+                <nplId>20051206000046</nplId><produktnamn>Cynaramin</produktnamn><antidot>N</antidot><atcKod>A09</atcKod><avvikelseParallellImport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <ddd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <dosBryttillstand>N</dosBryttillstand><dosBryttillstandHallbar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <doseringsenhet>-</doseringsenhet><enhetDdd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <enhetStyrka xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <godkannandeDatum>2005-12-06T00:00:00+01:00</godkannandeDatum><godkannandeProcedur>1</godkannandeProcedur><godkannandenr>205200</godkannandenr><lakemedelsform>ORDRSO</lakemedelsform><lakemedelsformGrupp>OLS</lakemedelsformGrupp><narkotikaKlass>0</narkotikaKlass><originalNplid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <parallellimportFran xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <sarskildaLakemedel>1</sarskildaLakemedel><styrka xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <styrkaKlartext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <tillhandahalls>Y</tillhandahalls><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <utbytbar>N</utbytbar><veterinarlakemedel>N</veterinarlakemedel><asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <gruppvarunummerLx>N</gruppvarunummerLx><innehallerLaktosLx>N</innehallerLaktosLx><innehallerLatexLx>N</innehallerLatexLx><lakemedel>Y</lakemedel><produktKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <produktTyp>NLM</produktTyp><receptbelagdLx>0</receptbelagdLx><version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <farmaceutiskaProdukter>
+                    <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><pharmaceuticalProductIdNpl>IDXVBL000000009061</pharmaceuticalProductIdNpl><refererandeMangdLx>ML</refererandeMangdLx>
+                    <bestandsdelar>
+                        <bestandsdelEnhetLx>03</bestandsdelEnhetLx><bestandsdelMangd>423.0000000000</bestandsdelMangd><bestandsdelRollLx>ACTI</bestandsdelRollLx><bestandsdelTillaggsenhetLx>EQ</bestandsdelTillaggsenhetLx>
+                        <bestandsdelSubstans>
+                            <substansId>id5c687b82</substansId><casNummer></casNummer><innNamn>Taraxacum officinale (dandelion) herb and root, liquid extract (1:17) ethanol 43%</innNamn><nplsubstansid>IDXVBL000000007695</nplsubstansid>
+                        </bestandsdelSubstans>
+                    </bestandsdelar>
+                    <bestandsdelar>
+                        <bestandsdelEnhetLx>03</bestandsdelEnhetLx><bestandsdelMangd>25.0000000000</bestandsdelMangd><bestandsdelRollLx>ARES</bestandsdelRollLx><bestandsdelTillaggsenhetLx>EQ</bestandsdelTillaggsenhetLx>
+                        <bestandsdelSubstans>
+                            <substansId>ide53a6066</substansId><casNummer></casNummer><innNamn>Taraxacum officinale (dandelion), root</innNamn><nplsubstansid>IDXVBL000000007265</nplsubstansid>
+                        </bestandsdelSubstans>
+                    </bestandsdelar>
+                    <bestandsdelar>
+                        <bestandsdelEnhetLx>03</bestandsdelEnhetLx><bestandsdelMangd>63.0000000000</bestandsdelMangd><bestandsdelRollLx>ACTI</bestandsdelRollLx><bestandsdelTillaggsenhetLx>EQ</bestandsdelTillaggsenhetLx>
+                        <bestandsdelSubstans>
+                            <substansId>id27c60398</substansId><casNummer></casNummer><innNamn>Peumus boldo (boldo) leaf, liquid extract (1:10) ethanol 62%</innNamn><nplsubstansid>IDXVBL000000007700</nplsubstansid>
+                        </bestandsdelSubstans>
+                    </bestandsdelar>
+                    <bestandsdelar>
+                        <bestandsdelEnhetLx>03</bestandsdelEnhetLx><bestandsdelMangd>6.3000000000</bestandsdelMangd><bestandsdelRollLx>ARES</bestandsdelRollLx><bestandsdelTillaggsenhetLx>EQ</bestandsdelTillaggsenhetLx>
+                        <bestandsdelSubstans>
+                            <substansId>id667a412f</substansId><casNummer></casNummer><innNamn>Peumus boldus (boldo), leaf</innNamn><nplsubstansid>IDXVBL000000007225</nplsubstansid>
+                        </bestandsdelSubstans>
+                    </bestandsdelar>
+                </farmaceutiskaProdukter>
+                <tillaggsnamn>
+                    <gfromDatum>2010-04-07T00:00:00+02:00</gfromDatum><produktnamnTypLx>tradename</produktnamnTypLx><namn>Cynaramin</namn><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </tillaggsnamn>
+                <tillaggsnamn>
+                    <gfromDatum>2010-04-07T00:00:00+02:00</gfromDatum><produktnamnTypLx>medprodnamelegal</produktnamnTypLx><namn>Cynaramin</namn><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </tillaggsnamn>
+                <produktIntressenter>
+                    <intressentRollLx>MAH</intressentRollLx><namn>Svenska Bioforce AB</namn>
+                    <intressentAdress>
+                        <adress1>Box 147</adress1><adress2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <adress3>221 00</adress3><adress4>Lund</adress4><landKod>SWE</landKod>
+                    </intressentAdress>
+                </produktIntressenter>
+                <lmArtiklar>
+                    <nplpackid>20090224101267</nplpackid><artikelUtbytbarLx>N</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <dddPerForpackning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <tillhandahallsLx>Y</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalKlartext>100 milliliter</antalKlartext><antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>ML</antalNumeriskEnhetLx><antalNumeriskt>100.000</antalNumeriskt><artikelBenamning>Cynaramin, Orala droppar, lösning </artikelBenamning><artikelKommentar>Innehåller även tinkturer av örterna kronärtskocka (Cynara scolymus L.) och pepparmynta (Mentha piperita L.).</artikelKommentar><artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>N</formanLx><forpackningText>Flaska, 100 ml</forpackningText><forpackningsTypInreLx>BOT</forpackningsTypInreLx><forsaljningsRestriktionLx>4</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <pristypLx>-</pristypLx><receptbelagdLx>N</receptbelagdLx><varunummer>476426</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>nordiskt-varunr</artikelIdTypLx><gfromDatum>2010-04-13T00:00:00+02:00</gfromDatum><idVarde>476426</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>ean-code</artikelIdTypLx><gfromDatum>2009-02-24T00:00:00+01:00</gfromDatum><idVarde>07313700016084</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>-</antalNumerisktEnhet><antalNumeriskt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <pharmaceuticalProductIdNpl>IDXVBL000000009061</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <forvaringsfall>
+                        <forvaringsTemperaturLx>3</forvaringsTemperaturLx><forvaringsfallTypLx>1</forvaringsfallTypLx><forvaringssattLx>-</forvaringssattLx><hallbarhet>5</hallbarhet><hallbarhetEnhetLx>5</hallbarhetEnhetLx>
+                    </forvaringsfall>
+                    <validationFailed>false</validationFailed><validationFailedRules/>
+                    <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>false</updatedSinceDelivery><exportable>false</exportable>
+                </lmArtiklar>
+                <lmArtiklar>
+                    <nplpackid>20090224101274</nplpackid><artikelUtbytbarLx>N</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <dddPerForpackning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <tillhandahallsLx>Y</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalKlartext>50 milliliter</antalKlartext><antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>ML</antalNumeriskEnhetLx><antalNumeriskt>50.000</antalNumeriskt><artikelBenamning>Cynaramin, Orala droppar, lösning </artikelBenamning><artikelKommentar>Innehåller även tinkturer av örterna kronärtskocka (Cynara scolymus L.) och pepparmynta (Mentha piperita L.).</artikelKommentar><artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>N</formanLx><forpackningText>Flaska, 50 ml</forpackningText><forpackningsTypInreLx>BOT</forpackningsTypInreLx><forsaljningsRestriktionLx>4</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <pristypLx>-</pristypLx><receptbelagdLx>N</receptbelagdLx><varunummer>479468</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>nordiskt-varunr</artikelIdTypLx><gfromDatum>2010-04-13T00:00:00+02:00</gfromDatum><idVarde>479468</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>ean-code</artikelIdTypLx><gfromDatum>2009-02-24T00:00:00+01:00</gfromDatum><idVarde>07313700016053</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>-</antalNumerisktEnhet><antalNumeriskt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <pharmaceuticalProductIdNpl>IDXVBL000000009061</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <forvaringsfall>
+                        <forvaringsTemperaturLx>3</forvaringsTemperaturLx><forvaringsfallTypLx>1</forvaringsfallTypLx><forvaringssattLx>-</forvaringssattLx><hallbarhet>5</hallbarhet><hallbarhetEnhetLx>5</hallbarhetEnhetLx>
+                    </forvaringsfall>
+                    <validationFailed>false</validationFailed><validationFailedRules/>
+                    <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>false</updatedSinceDelivery><exportable>false</exportable>
+                </lmArtiklar>
+                <validationFailed>true</validationFailed>
+                <validationFailedRules>
+                    <failedRule>
+                        <ruleName>V20175</ruleName><failType>MEDICAL</failType><failLevel>MAJOR</failLevel><ruleGroup>STYRKA</ruleGroup>
+                    </failedRule>
+                </validationFailedRules>
+                <excludedFromDelivery>true</excludedFromDelivery><updatedSinceDelivery>false</updatedSinceDelivery><exportable>false</exportable>
+            </lmProduktResult>
+            <lmProduktResult>
+                <nplId>20030804001808</nplId><produktnamn>Jodopax APL</produktnamn><antidot>N</antidot><atcKod>A01AD11</atcKod><avvikelseParallellImport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <ddd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <dosBryttillstand>N</dosBryttillstand><dosBryttillstandHallbar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <doseringsenhet>-</doseringsenhet><enhetDdd>-</enhetDdd><enhetStyrka>40</enhetStyrka><godkannandeDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <godkannandeProcedur>APL</godkannandeProcedur><godkannandenr xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <lakemedelsform>DENSOL</lakemedelsform><lakemedelsformGrupp>DEN</lakemedelsformGrupp><narkotikaKlass>0</narkotikaKlass><originalNplid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <parallellimportFran xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <sarskildaLakemedel>1</sarskildaLakemedel><styrka>0.040</styrka><styrkaKlartext>0,04 % jod</styrkaKlartext><tillhandahalls>Y</tillhandahalls><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <utbytbar>N</utbytbar><veterinarlakemedel>N</veterinarlakemedel><asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <gruppvarunummerLx>N</gruppvarunummerLx><innehallerLaktosLx>-</innehallerLaktosLx><innehallerLatexLx>N</innehallerLatexLx><lakemedel>Y</lakemedel><produktKommentar>Apoteket AB Produktion &amp; Laboratorier (APL)</produktKommentar><produktTyp>APL</produktTyp><receptbelagdLx>1</receptbelagdLx><version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <tillaggsnamn>
+                    <gfromDatum>2010-04-07T00:00:00+02:00</gfromDatum><produktnamnTypLx>tradename</produktnamnTypLx><namn>Jodopax APL</namn><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </tillaggsnamn>
+                <produktIntressenter>
+                    <intressentRollLx>SBANSF</intressentRollLx><namn>Apoteket AB Produktion &amp; Laboratorier (APL)</namn>
+                    <intressentAdress>
+                        <adress1>Prismavägen 2</adress1><adress2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <adress3>141 75</adress3><adress4>Stockholm</adress4><landKod>SWE</landKod>
+                    </intressentAdress>
+                </produktIntressenter>
+                <lmArtiklar>
+                    <nplpackid>20031002102069</nplpackid><artikelUtbytbarLx>N</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <dddPerForpackning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <tillhandahallsLx>Y</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalKlartext>50 milliliter</antalKlartext><antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>ML</antalNumeriskEnhetLx><antalNumeriskt>50.000</antalNumeriskt><artikelBenamning>Jodopax dentallösn 0,04% jod </artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>N</formanLx><forpackningText>Flaska, 50 milliliter</forpackningText><forpackningsTypInreLx>BOT</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <pristypLx>-</pristypLx><receptbelagdLx>Y</receptbelagdLx><varunummer>349597</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>ean-code</artikelIdTypLx><gfromDatum>2011-03-12T00:00:00+01:00</gfromDatum><idVarde>07322833495970</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>nordiskt-varunr</artikelIdTypLx><gfromDatum>2003-10-02T00:00:00+02:00</gfromDatum><idVarde>349597</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>historiskt-ean-code</artikelIdTypLx><gfromDatum>2003-10-02T00:00:00+02:00</gfromDatum><idVarde>07313273495972</idVarde><tomDatum>2011-03-11T00:00:00+01:00</tomDatum>
+                    </artikelIdentiteter>
+                    <forvaringsfall>
+                        <forvaringsTemperaturLx>1</forvaringsTemperaturLx><forvaringsfallTypLx>1</forvaringsfallTypLx><forvaringssattLx>-</forvaringssattLx><hallbarhet>12</hallbarhet><hallbarhetEnhetLx>4</hallbarhetEnhetLx>
+                    </forvaringsfall>
+                    <validationFailed>false</validationFailed><validationFailedRules/>
+                    <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>true</updatedSinceDelivery><exportable>true</exportable>
+                </lmArtiklar>
+                <validationFailed>false</validationFailed><validationFailedRules/>
+                <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>true</updatedSinceDelivery><exportable>true</exportable>
+            </lmProduktResult>
+            <lmProduktResult>
+                <nplId>20060914000040</nplId><produktnamn>Sumatriptan ratiopharm</produktnamn><antidot>N</antidot><atcKod>N02CC01</atcKod><avvikelseParallellImport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <ddd>50.00</ddd><dosBryttillstand>N</dosBryttillstand><dosBryttillstandHallbar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <doseringsenhet>-</doseringsenhet><enhetDdd>mg</enhetDdd><enhetStyrka>64</enhetStyrka><godkannandeDatum>2007-03-09T00:00:00+01:00</godkannandeDatum><godkannandeProcedur>3</godkannandeProcedur><godkannandenr>243910</godkannandenr><lakemedelsform>TABLET</lakemedelsform><lakemedelsformGrupp>OSD</lakemedelsformGrupp><narkotikaKlass>0</narkotikaKlass><originalNplid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <parallellimportFran xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <sarskildaLakemedel>1</sarskildaLakemedel><styrka>50.000</styrka><styrkaKlartext>50 mg</styrkaKlartext><tillhandahalls>Y</tillhandahalls><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <utbytbar>Y</utbytbar><veterinarlakemedel>N</veterinarlakemedel><asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <gruppvarunummerLx>N</gruppvarunummerLx><innehallerLaktosLx>Y</innehallerLaktosLx><innehallerLatexLx>N</innehallerLatexLx><lakemedel>Y</lakemedel><produktKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <produktTyp>MEP</produktTyp><receptbelagdLx>3</receptbelagdLx><version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <produktUtbytbarheter>
+                    <gfromDatum>2011-07-08T00:00:00+02:00</gfromDatum><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <utbytbarhetFormGruppLx>163</utbytbarhetFormGruppLx><utbytbarhetStyrkaGruppLx>268</utbytbarhetStyrkaGruppLx><utbytbarhetSubstansGruppLx>140</utbytbarhetSubstansGruppLx>
+                </produktUtbytbarheter>
+                <farmaceutiskaProdukter>
+                    <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><pharmaceuticalProductIdNpl>ID1M9EVSH6VQMAGMSR</pharmaceuticalProductIdNpl><refererandeMangdLx>FGE</refererandeMangdLx>
+                    <bestandsdelar>
+                        <bestandsdelEnhetLx>03</bestandsdelEnhetLx><bestandsdelMangd>70.0000000000</bestandsdelMangd><bestandsdelRollLx>ACTI</bestandsdelRollLx><bestandsdelTillaggsenhetLx>EQ</bestandsdelTillaggsenhetLx>
+                        <bestandsdelSubstans>
+                            <substansId>idad7ba168</substansId><casNummer>103628-48-4</casNummer><innNamn>sumatriptan succinate</innNamn><nplsubstansid>IDE4POI5UC7AJVERT1</nplsubstansid>
+                        </bestandsdelSubstans>
+                    </bestandsdelar>
+                    <bestandsdelar>
+                        <bestandsdelEnhetLx>03</bestandsdelEnhetLx><bestandsdelMangd>50.0000000000</bestandsdelMangd><bestandsdelRollLx>ARES</bestandsdelRollLx><bestandsdelTillaggsenhetLx>EQ</bestandsdelTillaggsenhetLx>
+                        <bestandsdelSubstans>
+                            <substansId>id7ba646a4</substansId><casNummer>103628-46-2</casNummer><innNamn>sumatriptan</innNamn><nplsubstansid>IDE4POFNUB4N3VERT1</nplsubstansid>
+                        </bestandsdelSubstans>
+                    </bestandsdelar>
+                </farmaceutiskaProdukter>
+                <tillaggsnamn>
+                    <gfromDatum>2010-04-07T00:00:00+02:00</gfromDatum><produktnamnTypLx>medprodnamelegal</produktnamnTypLx><namn>Sumatriptan ratiopharm</namn><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </tillaggsnamn>
+                <tillaggsnamn>
+                    <gfromDatum>2010-04-07T00:00:00+02:00</gfromDatum><produktnamnTypLx>tradename</produktnamnTypLx><namn>Sumatriptan ratiopharm</namn><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </tillaggsnamn>
+                <produktIntressenter>
+                    <intressentRollLx>MAH</intressentRollLx><namn>ratiopharm GmbH</namn>
+                    <intressentAdress>
+                        <adress1>Graf-Arco-Strasse 3</adress1><adress2>DE-89079 Ulm</adress2><adress3 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <adress4 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <landKod>DEU</landKod>
+                    </intressentAdress>
+                </produktIntressenter>
+                <produktIntressenter>
+                    <intressentRollLx>AGENT</intressentRollLx><namn>Teva Sweden AB</namn>
+                    <intressentAdress>
+                        <adress1>Box 1070</adress1><adress2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <adress3>251 10</adress3><adress4>Helsingborg</adress4><landKod>SWE</landKod>
+                    </intressentAdress>
+                </produktIntressenter>
+                <lmArtiklar>
+                    <nplpackid>20070406100028</nplpackid><artikelUtbytbarLx>Y</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <dddPerForpackning>18.000</dddPerForpackning><tillhandahallsLx>N</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalKlartext>18 tablett(er)</antalKlartext><antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>TABL</antalNumeriskEnhetLx><antalNumeriskt>18.000</antalNumeriskt><artikelBenamning>Sumatriptan ratioph tabl  50mg</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>N</formanLx><forpackningText>Blister, 18 tabletter</forpackningText><forpackningsTypInreLx>BLI</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <pristypLx>-</pristypLx><receptbelagdLx>Y</receptbelagdLx><varunummer>081006</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>nordiskt-varunr</artikelIdTypLx><gfromDatum>2007-04-06T00:00:00+02:00</gfromDatum><idVarde>081006</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>ean-code</artikelIdTypLx><gfromDatum>2007-04-06T00:00:00+02:00</gfromDatum><idVarde>07046260810068</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>-</antalNumerisktEnhet><antalNumeriskt>0.000</antalNumeriskt><pharmaceuticalProductIdNpl>ID1M9EVSH6VQMAGMSR</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <forvaringsfall>
+                        <forvaringsTemperaturLx>1</forvaringsTemperaturLx><forvaringsfallTypLx>1</forvaringsfallTypLx><forvaringssattLx>-</forvaringssattLx><hallbarhet>4</hallbarhet><hallbarhetEnhetLx>5</hallbarhetEnhetLx>
+                    </forvaringsfall>
+                    <validationFailed>false</validationFailed><validationFailedRules/>
+                    <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>false</updatedSinceDelivery><exportable>true</exportable>
+                </lmArtiklar>
+                <lmArtiklar>
+                    <nplpackid>20061020100235</nplpackid><artikelUtbytbarLx>Y</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <dddPerForpackning>2.000</dddPerForpackning><tillhandahallsLx>Y</tillhandahallsLx><tillhandahallsFrom>2009-09-01T00:00:00+02:00</tillhandahallsFrom><antalKlartext>2 tablett(er)</antalKlartext><antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>TABL</antalNumeriskEnhetLx><antalNumeriskt>2.000</antalNumeriskt><artikelBenamning>Sumatriptan ratioph tabl  50mg</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>N</formanLx><forpackningText>Blister, 2 tabletter</forpackningText><forpackningsTypInreLx>BLI</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <pristypLx>-</pristypLx><receptbelagdLx>N</receptbelagdLx><varunummer>098196</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>ean-code</artikelIdTypLx><gfromDatum>2006-10-20T00:00:00+02:00</gfromDatum><idVarde>07046260981966</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>nordiskt-varunr</artikelIdTypLx><gfromDatum>2006-10-20T00:00:00+02:00</gfromDatum><idVarde>098196</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>-</antalNumerisktEnhet><antalNumeriskt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <pharmaceuticalProductIdNpl>ID1M9EVSH6VQMAGMSR</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <forvaringsfall>
+                        <forvaringsTemperaturLx>1</forvaringsTemperaturLx><forvaringsfallTypLx>1</forvaringsfallTypLx><forvaringssattLx>-</forvaringssattLx><hallbarhet>4</hallbarhet><hallbarhetEnhetLx>5</hallbarhetEnhetLx>
+                    </forvaringsfall>
+                    <validationFailed>false</validationFailed><validationFailedRules/>
+                    <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>false</updatedSinceDelivery><exportable>true</exportable>
+                </lmArtiklar>
+                <lmArtiklar>
+                    <nplpackid>20061020100242</nplpackid><artikelUtbytbarLx>Y</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <dddPerForpackning>6.000</dddPerForpackning><tillhandahallsLx>N</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalKlartext>6 tablett(er)</antalKlartext><antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>TABL</antalNumeriskEnhetLx><antalNumeriskt>6.000</antalNumeriskt><artikelBenamning>Sumatriptan ratioph tabl  50mg</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>N</formanLx><forpackningText>Blister, 6 tabletter</forpackningText><forpackningsTypInreLx>BLI</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <pristypLx>-</pristypLx><receptbelagdLx>Y</receptbelagdLx><varunummer>080988</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>nordiskt-varunr</artikelIdTypLx><gfromDatum>2006-10-20T00:00:00+02:00</gfromDatum><idVarde>080988</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>ean-code</artikelIdTypLx><gfromDatum>2006-10-20T00:00:00+02:00</gfromDatum><idVarde>07046260809888</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>-</antalNumerisktEnhet><antalNumeriskt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <pharmaceuticalProductIdNpl>ID1M9EVSH6VQMAGMSR</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <forvaringsfall>
+                        <forvaringsTemperaturLx>1</forvaringsTemperaturLx><forvaringsfallTypLx>1</forvaringsfallTypLx><forvaringssattLx>-</forvaringssattLx><hallbarhet>4</hallbarhet><hallbarhetEnhetLx>5</hallbarhetEnhetLx>
+                    </forvaringsfall>
+                    <validationFailed>false</validationFailed><validationFailedRules/>
+                    <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>false</updatedSinceDelivery><exportable>true</exportable>
+                </lmArtiklar>
+                <validationFailed>false</validationFailed><validationFailedRules/>
+                <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>true</updatedSinceDelivery><exportable>true</exportable>
+            </lmProduktResult>
+            <lmProduktResult>
+                <nplId>20040607008034</nplId><produktnamn>Desmopressin Ferring</produktnamn><antidot>N</antidot><atcKod>H01BA02</atcKod><avvikelseParallellImport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <ddd>25.00</ddd><dosBryttillstand>N</dosBryttillstand><dosBryttillstandHallbar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <doseringsenhet>-</doseringsenhet><enhetDdd>mcg</enhetDdd><enhetStyrka>5</enhetStyrka><godkannandeDatum>2004-09-03T00:00:00+02:00</godkannandeDatum><godkannandeProcedur>1</godkannandeProcedur><godkannandenr>207020</godkannandenr><lakemedelsform>NASPSO</lakemedelsform><lakemedelsformGrupp>NAS</lakemedelsformGrupp><narkotikaKlass>0</narkotikaKlass><originalNplid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <parallellimportFran xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <sarskildaLakemedel>1</sarskildaLakemedel><styrka>10.000</styrka><styrkaKlartext>10 mikrog/dos</styrkaKlartext><tillhandahalls>N</tillhandahalls><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <utbytbar>Y</utbytbar><veterinarlakemedel>N</veterinarlakemedel><asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <gruppvarunummerLx>N</gruppvarunummerLx><innehallerLaktosLx>N</innehallerLaktosLx><innehallerLatexLx>N</innehallerLatexLx><lakemedel>Y</lakemedel><produktKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <produktTyp>MEP</produktTyp><receptbelagdLx>1</receptbelagdLx><version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <produktUtbytbarheter>
+                    <gfromDatum>2011-07-08T00:00:00+02:00</gfromDatum><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <utbytbarhetFormGruppLx>49</utbytbarhetFormGruppLx><utbytbarhetStyrkaGruppLx>93</utbytbarhetStyrkaGruppLx><utbytbarhetSubstansGruppLx>47</utbytbarhetSubstansGruppLx>
+                </produktUtbytbarheter>
+                <farmaceutiskaProdukter>
+                    <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><pharmaceuticalProductIdNpl>ID8BBA663O5J9MSRV1</pharmaceuticalProductIdNpl><refererandeMangdLx>DOS</refererandeMangdLx>
+                    <bestandsdelar>
+                        <bestandsdelEnhetLx>04</bestandsdelEnhetLx><bestandsdelMangd>8.9000000000</bestandsdelMangd><bestandsdelRollLx>ARES</bestandsdelRollLx><bestandsdelTillaggsenhetLx>EQ</bestandsdelTillaggsenhetLx>
+                        <bestandsdelSubstans>
+                            <substansId>idd2b3a23e</substansId><casNummer>16679-58-6</casNummer><innNamn>desmopressin</innNamn><nplsubstansid>IDE4POELUAB3CVERT1</nplsubstansid>
+                        </bestandsdelSubstans>
+                    </bestandsdelar>
+                    <bestandsdelar>
+                        <bestandsdelEnhetLx>04</bestandsdelEnhetLx><bestandsdelMangd>10.0000000000</bestandsdelMangd><bestandsdelRollLx>ACTI</bestandsdelRollLx><bestandsdelTillaggsenhetLx>EQ</bestandsdelTillaggsenhetLx>
+                        <bestandsdelSubstans>
+                            <substansId>idf608a39e</substansId><casNummer>62357-86-2</casNummer><innNamn>desmopressin acetate</innNamn><nplsubstansid>IDE4POF9UATGUVERT1</nplsubstansid>
+                        </bestandsdelSubstans>
+                    </bestandsdelar>
+                </farmaceutiskaProdukter>
+                <tillaggsnamn>
+                    <gfromDatum>2004-11-01T00:00:00+01:00</gfromDatum><produktnamnTypLx>historiskt-medprodnamelegal</produktnamnTypLx><namn>Desmopressin Nordic</namn><tomDatum>2007-05-15T00:00:00+02:00</tomDatum>
+                </tillaggsnamn>
+                <tillaggsnamn>
+                    <gfromDatum>2007-05-16T00:00:00+02:00</gfromDatum><produktnamnTypLx>tradename</produktnamnTypLx><namn>Desmopressin Ferring</namn><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </tillaggsnamn>
+                <tillaggsnamn>
+                    <gfromDatum>2004-09-03T00:00:00+02:00</gfromDatum><produktnamnTypLx>historiskt-tradename</produktnamnTypLx><namn>Adin</namn><tomDatum>2004-10-31T00:00:00+02:00</tomDatum>
+                </tillaggsnamn>
+                <tillaggsnamn>
+                    <gfromDatum>2004-09-03T00:00:00+02:00</gfromDatum><produktnamnTypLx>historiskt-medprodnamelegal</produktnamnTypLx><namn>Adin</namn><tomDatum>2004-10-31T00:00:00+02:00</tomDatum>
+                </tillaggsnamn>
+                <tillaggsnamn>
+                    <gfromDatum>2007-05-16T00:00:00+02:00</gfromDatum><produktnamnTypLx>medprodnamelegal</produktnamnTypLx><namn>Desmopressin Ferring</namn><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </tillaggsnamn>
+                <tillaggsnamn>
+                    <gfromDatum>2004-11-01T00:00:00+01:00</gfromDatum><produktnamnTypLx>historiskt-tradename</produktnamnTypLx><namn>Desmopressin Nordic</namn><tomDatum>2007-05-15T00:00:00+02:00</tomDatum>
+                </tillaggsnamn>
+                <produktIntressenter>
+                    <intressentRollLx>MAH</intressentRollLx><namn>Ferring Läkemedel AB</namn>
+                    <intressentAdress>
+                        <adress1>Box 4041</adress1><adress2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <adress3>203 11</adress3><adress4>Malmö</adress4><landKod>SWE</landKod>
+                    </intressentAdress>
+                </produktIntressenter>
+                <lmArtiklar>
+                    <nplpackid>20040901100632</nplpackid><artikelUtbytbarLx>Y</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <dddPerForpackning>24.000</dddPerForpackning><tillhandahallsLx>N</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalKlartext>1 x 60 dos(er)</antalKlartext><antalMultipel1>1</antalMultipel1><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>DOSER</antalNumeriskEnhetLx><antalNumeriskt>60.000</antalNumeriskt><artikelBenamning>Desmopressin Fer näsp10mkg/dos</artikelBenamning><artikelKommentar>Marknadsförs ej</artikelKommentar><artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>Y</formanLx><forpackningText>Flaska med dospump 1 x 6 ml (60 doser)</forpackningText><forpackningsTypInreLx>SPR</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <pristypLx>GEN</pristypLx><receptbelagdLx>Y</receptbelagdLx><varunummer>021730</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>historiskt-nordiskt-varunr</artikelIdTypLx><gfromDatum>2004-10-08T00:00:00+02:00</gfromDatum><idVarde>021583</idVarde><tomDatum>2005-06-02T00:00:00+02:00</tomDatum>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>historiskt-ean-code</artikelIdTypLx><gfromDatum>2004-10-08T00:00:00+02:00</gfromDatum><idVarde>07046260215832</idVarde><tomDatum>2005-06-02T00:00:00+02:00</tomDatum>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>ean-code</artikelIdTypLx><gfromDatum>2005-12-09T00:00:00+01:00</gfromDatum><idVarde>07315370217303</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>nordiskt-varunr</artikelIdTypLx><gfromDatum>2005-06-03T00:00:00+02:00</gfromDatum><idVarde>021730</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>historiskt-ean-code</artikelIdTypLx><gfromDatum>2005-06-03T00:00:00+02:00</gfromDatum><idVarde>07046260217300</idVarde><tomDatum>2005-12-08T00:00:00+01:00</tomDatum>
+                    </artikelIdentiteter>
+                    <priser>
+                        <aip>348.53</aip><aup>412.50</aup><gfromDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </priser>
+                    <utbytesPerioder>
+                        <bestallningStoppFlagga>N</bestallningStoppFlagga><bestallningsStoppStart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <klusterId>SP60</klusterId><periodensVaraFlagga>N</periodensVaraFlagga><periodensVaraStart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <startDatum>2011-08-01T00:00:00+02:00</startDatum><stoppDatum>2011-08-31T00:00:00+02:00</stoppDatum>
+                    </utbytesPerioder>
+                    <utbytesPerioder>
+                        <bestallningStoppFlagga>N</bestallningStoppFlagga><bestallningsStoppStart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <klusterId>SP60</klusterId><periodensVaraFlagga>N</periodensVaraFlagga><periodensVaraStart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <startDatum>2011-07-01T00:00:00+02:00</startDatum><stoppDatum>2011-07-31T00:00:00+02:00</stoppDatum>
+                    </utbytesPerioder>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>-</antalNumerisktEnhet><antalNumeriskt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <pharmaceuticalProductIdNpl>ID8BBA663O5J9MSRV1</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <forvaringsfall>
+                        <forvaringsTemperaturLx>3</forvaringsTemperaturLx><forvaringsfallTypLx>1</forvaringsfallTypLx><forvaringssattLx>-</forvaringssattLx><hallbarhet>3</hallbarhet><hallbarhetEnhetLx>5</hallbarhetEnhetLx>
+                    </forvaringsfall>
+                    <validationFailed>true</validationFailed>
+                    <validationFailedRules>
+                        <failedRule>
+                            <ruleName>Y20762</ruleName><failType>MEDICAL</failType><failLevel>MAJOR</failLevel><ruleGroup>FORPACKNING</ruleGroup><decision>NOTIFY</decision><decisionDate>2011-08-24T23:20:15.243+02:00</decisionDate><decisionComment>jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj</decisionComment><decisionHistory>2011-08-24 23:20 NOTIFY Jessica jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\n\n2011-08-24 22:56 IGNORE  \n\n2011-08-24 16:52 STOP Jessica Denna rtikel måste stoppas!!!!\n\n2011-08-24 16:52 STOP Jessica Denna rtikel måste stoppas!!!!\n\n2011-08-24 15:31 IGNORE  \n\n2011-08-24 13:51 IGNORE  \n\n2011-08-24 10:29 NOTIFY Jessica Anmärk1\n\n2011-08-24 10:27 IGNORE  </decisionHistory><decisionBy>Jessica</decisionBy>
+                        </failedRule>
+                    </validationFailedRules>
+                    <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>true</updatedSinceDelivery><exportable>true</exportable>
+                </lmArtiklar>
+                <lmArtiklar>
+                    <nplpackid>20040901100656</nplpackid><artikelUtbytbarLx>Y</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <dddPerForpackning>72.000</dddPerForpackning><tillhandahallsLx>N</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalKlartext>3 x 60 dos(er)</antalKlartext><antalMultipel1>3</antalMultipel1><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>DOSER</antalNumeriskEnhetLx><antalNumeriskt>60.000</antalNumeriskt><artikelBenamning>Desmopressin Fer näsp10mkg/dos</artikelBenamning><artikelKommentar>marknadsförs ej</artikelKommentar><artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>Y</formanLx><forpackningText>Flaska med dospump 3 x 6 ml (3 x 60 doser)</forpackningText><forpackningsTypInreLx>SPR</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <pristypLx>GEN</pristypLx><receptbelagdLx>Y</receptbelagdLx><varunummer>021694</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>nordiskt-varunr</artikelIdTypLx><gfromDatum>2005-06-03T00:00:00+02:00</gfromDatum><idVarde>021694</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>historiskt-nordiskt-varunr</artikelIdTypLx><gfromDatum>2004-10-08T00:00:00+02:00</gfromDatum><idVarde>020030</idVarde><tomDatum>2005-06-02T00:00:00+02:00</tomDatum>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>historiskt-ean-code</artikelIdTypLx><gfromDatum>2004-10-08T00:00:00+02:00</gfromDatum><idVarde>07046260200302</idVarde><tomDatum>2005-06-02T00:00:00+02:00</tomDatum>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>historiskt-ean-code</artikelIdTypLx><gfromDatum>2005-06-03T00:00:00+02:00</gfromDatum><idVarde>07046260216945</idVarde><tomDatum>2005-09-12T00:00:00+02:00</tomDatum>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>ean-code</artikelIdTypLx><gfromDatum>2005-09-13T00:00:00+02:00</gfromDatum><idVarde>07315370216948</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <priser>
+                        <aip>1085.29</aip><aup>1164.00</aup><gfromDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </priser>
+                    <utbytesPerioder>
+                        <bestallningStoppFlagga>N</bestallningStoppFlagga><bestallningsStoppStart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <klusterId>SP180</klusterId><periodensVaraFlagga>N</periodensVaraFlagga><periodensVaraStart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <startDatum>2011-07-01T00:00:00+02:00</startDatum><stoppDatum>2011-07-31T00:00:00+02:00</stoppDatum>
+                    </utbytesPerioder>
+                    <utbytesPerioder>
+                        <bestallningStoppFlagga>N</bestallningStoppFlagga><bestallningsStoppStart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <klusterId>SP180</klusterId><periodensVaraFlagga>N</periodensVaraFlagga><periodensVaraStart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <startDatum>2011-08-01T00:00:00+02:00</startDatum><stoppDatum>2011-08-31T00:00:00+02:00</stoppDatum>
+                    </utbytesPerioder>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>-</antalNumerisktEnhet><antalNumeriskt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <pharmaceuticalProductIdNpl>ID8BBA663O5J9MSRV1</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <forvaringsfall>
+                        <forvaringsTemperaturLx>3</forvaringsTemperaturLx><forvaringsfallTypLx>1</forvaringsfallTypLx><forvaringssattLx>-</forvaringssattLx><hallbarhet>3</hallbarhet><hallbarhetEnhetLx>5</hallbarhetEnhetLx>
+                    </forvaringsfall>
+                    <validationFailed>true</validationFailed>
+                    <validationFailedRules>
+                        <failedRule>
+                            <ruleName>Y20762</ruleName><failType>MEDICAL</failType><failLevel>MAJOR</failLevel><ruleGroup>FORPACKNING</ruleGroup><decision>IGNORE</decision><decisionDate>2011-08-24T15:14:26.226+02:00</decisionDate><decisionComment></decisionComment><decisionHistory>2011-08-24 15:14 IGNORE  \n\n2011-08-24 15:06 IGNORE  \n\n2011-08-24 14:29 IGNORE  \n\n2011-08-24 14:25 IGNORE  </decisionHistory><decisionBy></decisionBy>
+                        </failedRule>
+                    </validationFailedRules>
+                    <excludedFromDelivery>true</excludedFromDelivery><updatedSinceDelivery>true</updatedSinceDelivery><exportable>true</exportable>
+                </lmArtiklar>
+                <lmArtiklar>
+                    <nplpackid>20040901100670</nplpackid><artikelUtbytbarLx>Y</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <dddPerForpackning>10.000</dddPerForpackning><tillhandahallsLx>N</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalKlartext>1 x 25 dos(er)</antalKlartext><antalMultipel1>1</antalMultipel1><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>DOSER</antalNumeriskEnhetLx><antalNumeriskt>25.000</antalNumeriskt><artikelBenamning>Desmopressin Fer näsp10mkg/dos</artikelBenamning><artikelKommentar>Marknadsförs ej</artikelKommentar><artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>Y</formanLx><forpackningText>Flaska med dospump 1 x 2,5 ml (25 doser)</forpackningText><forpackningsTypInreLx>SPR</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <pristypLx>GEN</pristypLx><receptbelagdLx>Y</receptbelagdLx><varunummer>021744</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>nordiskt-varunr</artikelIdTypLx><gfromDatum>2005-06-03T00:00:00+02:00</gfromDatum><idVarde>021744</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>historiskt-ean-code</artikelIdTypLx><gfromDatum>2004-10-08T00:00:00+02:00</gfromDatum><idVarde>07046260200227</idVarde><tomDatum>2005-06-02T00:00:00+02:00</tomDatum>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>ean-code</artikelIdTypLx><gfromDatum>2010-04-27T00:00:00+02:00</gfromDatum><idVarde>07315370217440</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>historiskt-ean-code</artikelIdTypLx><gfromDatum>2005-06-03T00:00:00+02:00</gfromDatum><idVarde>07046260217447</idVarde><tomDatum>2010-04-26T00:00:00+02:00</tomDatum>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>historiskt-nordiskt-varunr</artikelIdTypLx><gfromDatum>2004-10-08T00:00:00+02:00</gfromDatum><idVarde>020022</idVarde><tomDatum>2005-06-02T00:00:00+02:00</tomDatum>
+                    </artikelIdentiteter>
+                    <priser>
+                        <aip>176.76</aip><aup>236.00</aup><gfromDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </priser>
+                    <utbytesPerioder>
+                        <bestallningStoppFlagga>N</bestallningStoppFlagga><bestallningsStoppStart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <klusterId>SP25</klusterId><periodensVaraFlagga>N</periodensVaraFlagga><periodensVaraStart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <startDatum>2011-08-01T00:00:00+02:00</startDatum><stoppDatum>2011-08-31T00:00:00+02:00</stoppDatum>
+                    </utbytesPerioder>
+                    <utbytesPerioder>
+                        <bestallningStoppFlagga>N</bestallningStoppFlagga><bestallningsStoppStart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <klusterId>SP25</klusterId><periodensVaraFlagga>N</periodensVaraFlagga><periodensVaraStart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <startDatum>2011-07-01T00:00:00+02:00</startDatum><stoppDatum>2011-07-31T00:00:00+02:00</stoppDatum>
+                    </utbytesPerioder>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>-</antalNumerisktEnhet><antalNumeriskt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <pharmaceuticalProductIdNpl>ID8BBA663O5J9MSRV1</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <forvaringsfall>
+                        <forvaringsTemperaturLx>3</forvaringsTemperaturLx><forvaringsfallTypLx>1</forvaringsfallTypLx><forvaringssattLx>-</forvaringssattLx><hallbarhet>3</hallbarhet><hallbarhetEnhetLx>5</hallbarhetEnhetLx>
+                    </forvaringsfall>
+                    <validationFailed>true</validationFailed>
+                    <validationFailedRules>
+                        <failedRule>
+                            <ruleName>Y20762</ruleName><failType>MEDICAL</failType><failLevel>MAJOR</failLevel><ruleGroup>FORPACKNING</ruleGroup><decision>IGNORE</decision><decisionDate>2011-08-24T14:11:52.900+02:00</decisionDate><decisionComment></decisionComment><decisionHistory>2011-08-24 14:11 IGNORE  \n\n2011-08-24 14:01 WARNING gew grtye</decisionHistory><decisionBy></decisionBy>
+                        </failedRule>
+                    </validationFailedRules>
+                    <excludedFromDelivery>true</excludedFromDelivery><updatedSinceDelivery>true</updatedSinceDelivery><exportable>true</exportable>
+                </lmArtiklar>
+                <validationFailed>true</validationFailed>
+                <validationFailedRules>
+                    <failedRule>
+                        <ruleName>V20760</ruleName><failType>MEDICAL</failType><failLevel>MAJOR</failLevel><ruleGroup>UTBYTBARHET</ruleGroup><decision>NOTIFY</decision><decisionDate>2011-08-24T23:20:15.555+02:00</decisionDate><decisionComment>kkkllllllllllllllllllll</decisionComment><decisionHistory>2011-08-24 23:20 NOTIFY Jessica kkkllllllllllllllllllll\n\n2011-08-24 22:56 IGNORE  \n\n2011-08-24 16:52 NOTIFY Jessica Här kommer en anmärkning &#xD;
+                            sdfffffffffffffffffffffffffffffffffffhhhhhhhhhhhhhhhhh fftg\n\n2011-08-24 16:52 NOTIFY Jessica Här kommer en anmärkning &#xD;
+                            sdfffffffffffffffffffffffffffffffffffhhhhhhhhhhhhhhhhh fftg\n\n2011-08-24 15:31 IGNORE  \n\n2011-08-24 15:14 IGNORE  \n\n2011-08-24 15:06 IGNORE  \n\n2011-08-24 14:29 IGNORE  \n\n2011-08-24 14:25 IGNORE  \n\n2011-08-24 14:11 NOTIFY gew feaw\n\n2011-08-24 14:01 IGNORE  \n\n2011-08-24 13:51 IGNORE  \n\n2011-08-24 10:27 WARNING Jessica Varna1
+                        </decisionHistory>
+                        <decisionBy>Jessica</decisionBy>
+                    </failedRule>
+                </validationFailedRules>
+                <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>true</updatedSinceDelivery><exportable>true</exportable>
+            </lmProduktResult>
+            <lmProduktResult>
+                <nplId>20030321000032</nplId><produktnamn>balance 4.25 % glucose 1.25 mmol/l calcium</produktnamn><antidot>N</antidot><atcKod>B05DB</atcKod><avvikelseParallellImport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <ddd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <dosBryttillstand>N</dosBryttillstand><dosBryttillstandHallbar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <doseringsenhet>-</doseringsenhet><enhetDdd>-</enhetDdd><enhetStyrka xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <godkannandeDatum>2003-03-21T00:00:00+01:00</godkannandeDatum><godkannandeProcedur>3</godkannandeProcedur><godkannandenr>182940</godkannandenr><lakemedelsform>SOPEDI</lakemedelsform><lakemedelsformGrupp>DIA</lakemedelsformGrupp><narkotikaKlass>0</narkotikaKlass><originalNplid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <parallellimportFran xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <sarskildaLakemedel>1</sarskildaLakemedel><styrka xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <styrkaKlartext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <tillhandahalls>Y</tillhandahalls><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <utbytbar>N</utbytbar><veterinarlakemedel>N</veterinarlakemedel><asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <gruppvarunummerLx>N</gruppvarunummerLx><innehallerLaktosLx>N</innehallerLaktosLx><innehallerLatexLx>N</innehallerLatexLx><lakemedel>Y</lakemedel><produktKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <produktTyp>MEP</produktTyp><receptbelagdLx>1</receptbelagdLx><version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <farmaceutiskaProdukter>
+                    <beskrivning>Glucose solution</beskrivning><pharmaceuticalProductIdNpl>ID1BL8M9HFKOYYMCSR</pharmaceuticalProductIdNpl><refererandeMangdLx>ML</refererandeMangdLx>
+                    <bestandsdelar>
+                        <bestandsdelEnhetLx>03</bestandsdelEnhetLx><bestandsdelMangd>0.2030000000</bestandsdelMangd><bestandsdelRollLx>ACTI</bestandsdelRollLx><bestandsdelTillaggsenhetLx>EQ</bestandsdelTillaggsenhetLx>
+                        <bestandsdelSubstans>
+                            <substansId>id2f13a241</substansId><casNummer>7791-18-6</casNummer><innNamn>magnesium chloride hexahydrate</innNamn><nplsubstansid>IDE4POE9UA1SPVERT1</nplsubstansid>
+                        </bestandsdelSubstans>
+                    </bestandsdelar>
+                    <bestandsdelar>
+                        <bestandsdelEnhetLx>03</bestandsdelEnhetLx><bestandsdelMangd>11.2800000000</bestandsdelMangd><bestandsdelRollLx>ACTI</bestandsdelRollLx><bestandsdelTillaggsenhetLx>EQ</bestandsdelTillaggsenhetLx>
+                        <bestandsdelSubstans>
+                            <substansId>idbef595b0</substansId><casNummer>7647-14-5</casNummer><innNamn>sodium chloride</innNamn><nplsubstansid>IDE4POE7UA0DIVERT1</nplsubstansid>
+                        </bestandsdelSubstans>
+                    </bestandsdelar>
+                    <bestandsdelar>
+                        <bestandsdelEnhetLx>03</bestandsdelEnhetLx><bestandsdelMangd>85.0000000000</bestandsdelMangd><bestandsdelRollLx>ARES</bestandsdelRollLx><bestandsdelTillaggsenhetLx>EQ</bestandsdelTillaggsenhetLx>
+                        <bestandsdelSubstans>
+                            <substansId>idc869a49</substansId><casNummer>50-99-7</casNummer><innNamn>glucose, anhydrous</innNamn><nplsubstansid>IDE4POBSU9068VERT1</nplsubstansid>
+                        </bestandsdelSubstans>
+                    </bestandsdelar>
+                    <bestandsdelar>
+                        <bestandsdelEnhetLx>03</bestandsdelEnhetLx><bestandsdelMangd>93.5000000000</bestandsdelMangd><bestandsdelRollLx>ACTI</bestandsdelRollLx><bestandsdelTillaggsenhetLx>EQ</bestandsdelTillaggsenhetLx>
+                        <bestandsdelSubstans>
+                            <substansId>idbd7d2a2c</substansId><casNummer>77029-61-9</casNummer><innNamn>glucose monohydrate</innNamn><nplsubstansid>IDE4POE3U9XEOVERT1</nplsubstansid>
+                        </bestandsdelSubstans>
+                    </bestandsdelar>
+                    <bestandsdelar>
+                        <bestandsdelEnhetLx>03</bestandsdelEnhetLx><bestandsdelMangd>0.3680000000</bestandsdelMangd><bestandsdelRollLx>ACTI</bestandsdelRollLx><bestandsdelTillaggsenhetLx>EQ</bestandsdelTillaggsenhetLx>
+                        <bestandsdelSubstans>
+                            <substansId>idb5480838</substansId><casNummer>10035-04-8</casNummer><innNamn>calcium chloride dihydrate</innNamn><nplsubstansid>IDE4POEEUA5ELVERT1</nplsubstansid>
+                        </bestandsdelSubstans>
+                    </bestandsdelar>
+                </farmaceutiskaProdukter>
+                <farmaceutiskaProdukter>
+                    <beskrivning>Lactate solution</beskrivning><pharmaceuticalProductIdNpl>ID1BL8M9FFKOXZLCSR</pharmaceuticalProductIdNpl><refererandeMangdLx>ML</refererandeMangdLx>
+                    <bestandsdelar>
+                        <bestandsdelEnhetLx>03</bestandsdelEnhetLx><bestandsdelMangd>7.8500000000</bestandsdelMangd><bestandsdelRollLx>ARES</bestandsdelRollLx><bestandsdelTillaggsenhetLx>EQ</bestandsdelTillaggsenhetLx>
+                        <bestandsdelSubstans>
+                            <substansId>id727d3fe8</substansId><casNummer>72-17-3</casNummer><innNamn>sodium lactate (E325)</innNamn><nplsubstansid>IDE4POBXU93X5VERT1</nplsubstansid>
+                        </bestandsdelSubstans>
+                    </bestandsdelar>
+                    <bestandsdelar>
+                        <bestandsdelEnhetLx>03</bestandsdelEnhetLx><bestandsdelMangd>15.7000000000</bestandsdelMangd><bestandsdelRollLx>ACTI</bestandsdelRollLx><bestandsdelTillaggsenhetLx>EQ</bestandsdelTillaggsenhetLx>
+                        <bestandsdelSubstans>
+                            <substansId>id630f3d44</substansId><casNummer></casNummer><innNamn>sodium lactate solution</innNamn><nplsubstansid>ID11KZZ42UP8V1GCSR</nplsubstansid>
+                        </bestandsdelSubstans>
+                    </bestandsdelar>
+                </farmaceutiskaProdukter>
+                <tillaggsnamn>
+                    <gfromDatum>2010-04-07T00:00:00+02:00</gfromDatum><produktnamnTypLx>medprodnamelegal</produktnamnTypLx><namn>balance 4.25 % glucose 1.25 mmol/l calcium</namn><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </tillaggsnamn>
+                <tillaggsnamn>
+                    <gfromDatum>2010-04-07T00:00:00+02:00</gfromDatum><produktnamnTypLx>tradename</produktnamnTypLx><namn>balance 4.25 % glucose 1.25 mmol/l calcium</namn><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </tillaggsnamn>
+                <produktIntressenter>
+                    <intressentRollLx>AGENT</intressentRollLx><namn>Fresenius Medical Care Sverige AB</namn>
+                    <intressentAdress>
+                        <adress1>Djupdalsvägen 1</adress1><adress2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <adress3>192 51</adress3><adress4>Sollentuna</adress4><landKod>SWE</landKod>
+                    </intressentAdress>
+                </produktIntressenter>
+                <produktIntressenter>
+                    <intressentRollLx>MAH</intressentRollLx><namn>Fresenius Medical Care Deutschland GmbH</namn>
+                    <intressentAdress>
+                        <adress1>Gluckensteinweg 5</adress1><adress2>DE-61346 Bad Homburg</adress2><adress3 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <adress4 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <landKod>DEU</landKod>
+                    </intressentAdress>
+                </produktIntressenter>
+                <lmArtiklar>
+                    <nplpackid>20030321100251</nplpackid><artikelUtbytbarLx>N</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <dddPerForpackning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <tillhandahallsLx>Y</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalKlartext>4 x 2500 milliliter</antalKlartext><antalMultipel1>4</antalMultipel1><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>ML</antalNumeriskEnhetLx><antalNumeriskt>2500.000</antalNumeriskt><artikelBenamning>balance 4.25% glu 1.25mmol cal</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>Y</formanLx><forpackningText>Dubbelkammarpåsar (Stay Safe), 4 x 2500 ml</forpackningText><forpackningsTypInreLx>BAG</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <pristypLx>GEN</pristypLx><receptbelagdLx>Y</receptbelagdLx><varunummer>009216</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>ean-code</artikelIdTypLx><gfromDatum>2003-03-21T00:00:00+01:00</gfromDatum><idVarde>07046260092167</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>nordiskt-varunr</artikelIdTypLx><gfromDatum>2003-03-21T00:00:00+01:00</gfromDatum><idVarde>009216</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <priser>
+                        <aip>577.00</aip><aup>635.50</aup><gfromDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </priser>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1>4</antalMultipel1><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>ML</antalNumerisktEnhet><antalNumeriskt>1250.000</antalNumeriskt><pharmaceuticalProductIdNpl>ID1BL8M9HFKOYYMCSR</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1>4</antalMultipel1><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>ML</antalNumerisktEnhet><antalNumeriskt>1250.000</antalNumeriskt><pharmaceuticalProductIdNpl>ID1BL8M9FFKOXZLCSR</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <forvaringsfall>
+                        <forvaringsTemperaturLx>14</forvaringsTemperaturLx><forvaringsfallTypLx>1</forvaringsfallTypLx><forvaringssattLx>-</forvaringssattLx><hallbarhet>2</hallbarhet><hallbarhetEnhetLx>5</hallbarhetEnhetLx>
+                    </forvaringsfall>
+                    <validationFailed>false</validationFailed><validationFailedRules/>
+                    <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>false</updatedSinceDelivery><exportable>true</exportable>
+                </lmArtiklar>
+                <lmArtiklar>
+                    <nplpackid>20030321100244</nplpackid><artikelUtbytbarLx>N</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <dddPerForpackning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <tillhandahallsLx>Y</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalKlartext>4 x 3000 milliliter</antalKlartext><antalMultipel1>4</antalMultipel1><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>ML</antalNumeriskEnhetLx><antalNumeriskt>3000.000</antalNumeriskt><artikelBenamning>balance 4.25% glu 1.25mmol cal</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>Y</formanLx><forpackningText>Dubbelkammarpåsar (Sleep Safe), 4 x 3000 ml</forpackningText><forpackningsTypInreLx>BAG</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <pristypLx>GEN</pristypLx><receptbelagdLx>Y</receptbelagdLx><varunummer>009624</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>nordiskt-varunr</artikelIdTypLx><gfromDatum>2003-03-21T00:00:00+01:00</gfromDatum><idVarde>009624</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>ean-code</artikelIdTypLx><gfromDatum>2003-03-21T00:00:00+01:00</gfromDatum><idVarde>07046260096240</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <priser>
+                        <aip>487.20</aip><aup>544.00</aup><gfromDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </priser>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1>4</antalMultipel1><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>ML</antalNumerisktEnhet><antalNumeriskt>1500.000</antalNumeriskt><pharmaceuticalProductIdNpl>ID1BL8M9HFKOYYMCSR</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1>4</antalMultipel1><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>ML</antalNumerisktEnhet><antalNumeriskt>1500.000</antalNumeriskt><pharmaceuticalProductIdNpl>ID1BL8M9FFKOXZLCSR</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <forvaringsfall>
+                        <forvaringsTemperaturLx>14</forvaringsTemperaturLx><forvaringsfallTypLx>1</forvaringsfallTypLx><forvaringssattLx>-</forvaringssattLx><hallbarhet>2</hallbarhet><hallbarhetEnhetLx>5</hallbarhetEnhetLx>
+                    </forvaringsfall>
+                    <validationFailed>false</validationFailed><validationFailedRules/>
+                    <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>false</updatedSinceDelivery><exportable>true</exportable>
+                </lmArtiklar>
+                <lmArtiklar>
+                    <nplpackid>20070410100298</nplpackid><artikelUtbytbarLx>N</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <dddPerForpackning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <tillhandahallsLx>Y</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalKlartext>2 x 5000 milliliter</antalKlartext><antalMultipel1>2</antalMultipel1><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>ML</antalNumeriskEnhetLx><antalNumeriskt>5000.000</antalNumeriskt><artikelBenamning>balance 4.25% glu 1.25mmol cal</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>Y</formanLx><forpackningText>Dubbelkammarpåsar (Sleep Safe), 2 x 5000 ml</forpackningText><forpackningsTypInreLx>BAG</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <pristypLx>GEN</pristypLx><receptbelagdLx>Y</receptbelagdLx><varunummer>075906</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>nordiskt-varunr</artikelIdTypLx><gfromDatum>2007-04-10T00:00:00+02:00</gfromDatum><idVarde>075906</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>ean-code</artikelIdTypLx><gfromDatum>2007-04-10T00:00:00+02:00</gfromDatum><idVarde>04046241039979</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <priser>
+                        <aip>406.00</aip><aup>461.00</aup><gfromDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </priser>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>-</antalNumerisktEnhet><antalNumeriskt>0.000</antalNumeriskt><pharmaceuticalProductIdNpl>ID1BL8M9HFKOYYMCSR</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>-</antalNumerisktEnhet><antalNumeriskt>0.000</antalNumeriskt><pharmaceuticalProductIdNpl>ID1BL8M9FFKOXZLCSR</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <forvaringsfall>
+                        <forvaringsTemperaturLx>14</forvaringsTemperaturLx><forvaringsfallTypLx>1</forvaringsfallTypLx><forvaringssattLx>-</forvaringssattLx><hallbarhet>2</hallbarhet><hallbarhetEnhetLx>5</hallbarhetEnhetLx>
+                    </forvaringsfall>
+                    <validationFailed>false</validationFailed><validationFailedRules/>
+                    <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>false</updatedSinceDelivery><exportable>true</exportable>
+                </lmArtiklar>
+                <lmArtiklar>
+                    <nplpackid>20030321100275</nplpackid><artikelUtbytbarLx>N</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <dddPerForpackning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <tillhandahallsLx>Y</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalKlartext>4 x 2000 milliliter</antalKlartext><antalMultipel1>4</antalMultipel1><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>ML</antalNumeriskEnhetLx><antalNumeriskt>2000.000</antalNumeriskt><artikelBenamning>balance 4.25% glu 1.25mmol cal</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>Y</formanLx><forpackningText>Dubbelkammarpåsar (Stay Safe), 4 x 2000 ml</forpackningText><forpackningsTypInreLx>BAG</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <pristypLx>GEN</pristypLx><receptbelagdLx>Y</receptbelagdLx><varunummer>009560</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>nordiskt-varunr</artikelIdTypLx><gfromDatum>2003-03-21T00:00:00+01:00</gfromDatum><idVarde>009560</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>ean-code</artikelIdTypLx><gfromDatum>2003-03-21T00:00:00+01:00</gfromDatum><idVarde>07046260095601</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <priser>
+                        <aip>540.00</aip><aup>598.00</aup><gfromDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </priser>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1>4</antalMultipel1><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>ML</antalNumerisktEnhet><antalNumeriskt>1000.000</antalNumeriskt><pharmaceuticalProductIdNpl>ID1BL8M9HFKOYYMCSR</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1>4</antalMultipel1><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>ML</antalNumerisktEnhet><antalNumeriskt>1000.000</antalNumeriskt><pharmaceuticalProductIdNpl>ID1BL8M9FFKOXZLCSR</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <forvaringsfall>
+                        <forvaringsTemperaturLx>14</forvaringsTemperaturLx><forvaringsfallTypLx>1</forvaringsfallTypLx><forvaringssattLx>-</forvaringssattLx><hallbarhet>2</hallbarhet><hallbarhetEnhetLx>5</hallbarhetEnhetLx>
+                    </forvaringsfall>
+                    <validationFailed>false</validationFailed><validationFailedRules/>
+                    <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>false</updatedSinceDelivery><exportable>true</exportable>
+                </lmArtiklar>
+                <validationFailed>true</validationFailed>
+                <validationFailedRules>
+                    <failedRule>
+                        <ruleName>V20175</ruleName><failType>MEDICAL</failType><failLevel>MAJOR</failLevel><ruleGroup>STYRKA</ruleGroup>
+                    </failedRule>
+                </validationFailedRules>
+                <excludedFromDelivery>true</excludedFromDelivery><updatedSinceDelivery>false</updatedSinceDelivery><exportable>true</exportable>
+            </lmProduktResult>
+            <lmProduktResult>
+                <nplId>20001229000141</nplId><produktnamn>Seloken ZOC</produktnamn><antidot>N</antidot><atcKod>C07AB02</atcKod><avvikelseParallellImport>Blisterkartorna är märkta både Seloken Zoc 47,5 mg och Seloken Zoc 50 mg.</avvikelseParallellImport><ddd>0.15</ddd><dosBryttillstand>N</dosBryttillstand><dosBryttillstandHallbar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <doseringsenhet>-</doseringsenhet><enhetDdd>g</enhetDdd><enhetStyrka>64</enhetStyrka><godkannandeDatum>2000-12-29T00:00:00+01:00</godkannandeDatum><godkannandeProcedur>1</godkannandeProcedur><godkannandenr>155930</godkannandenr><lakemedelsform>PRRETA</lakemedelsform><lakemedelsformGrupp>OSD</lakemedelsformGrupp><narkotikaKlass>0</narkotikaKlass><originalNplid>19880429000045</originalNplid><parallellimportFran>FIN</parallellimportFran><sarskildaLakemedel>1</sarskildaLakemedel><styrka>50.000</styrka><styrkaKlartext>50 mg</styrkaKlartext><tillhandahalls>N</tillhandahalls><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <utbytbar>N</utbytbar><veterinarlakemedel>N</veterinarlakemedel><asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <gruppvarunummerLx>N</gruppvarunummerLx><innehallerLaktosLx>N</innehallerLaktosLx><innehallerLatexLx>N</innehallerLatexLx><lakemedel>Y</lakemedel><produktKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <produktTyp>MEP</produktTyp><receptbelagdLx>1</receptbelagdLx><version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <avregistreringsdatum>2005-10-31T00:00:00+01:00</avregistreringsdatum>
+                <farmaceutiskaProdukter>
+                    <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><pharmaceuticalProductIdNpl>IDE4POQFUG02AVERT1</pharmaceuticalProductIdNpl><refererandeMangdLx>FGE</refererandeMangdLx>
+                    <bestandsdelar>
+                        <bestandsdelEnhetLx>03</bestandsdelEnhetLx><bestandsdelMangd>39.0000000000</bestandsdelMangd><bestandsdelRollLx>ARES</bestandsdelRollLx><bestandsdelTillaggsenhetLx>EQ</bestandsdelTillaggsenhetLx>
+                        <bestandsdelSubstans>
+                            <substansId>id59156884</substansId><casNummer>37350-58-6</casNummer><innNamn>metoprolol</innNamn><nplsubstansid>IDE4POF3UAPBGVERT1</nplsubstansid>
+                        </bestandsdelSubstans>
+                    </bestandsdelar>
+                    <bestandsdelar>
+                        <bestandsdelEnhetLx>03</bestandsdelEnhetLx><bestandsdelMangd>50.0000000000</bestandsdelMangd><bestandsdelRollLx>ARES</bestandsdelRollLx><bestandsdelTillaggsenhetLx>EQ</bestandsdelTillaggsenhetLx>
+                        <bestandsdelSubstans>
+                            <substansId>ida185cd2</substansId><casNummer>56392-17-7</casNummer><innNamn>metoprolol tartrate</innNamn><nplsubstansid>IDE4POF5UAQQDVERT1</nplsubstansid>
+                        </bestandsdelSubstans>
+                    </bestandsdelar>
+                    <bestandsdelar>
+                        <bestandsdelEnhetLx>03</bestandsdelEnhetLx><bestandsdelMangd>47.5000000000</bestandsdelMangd><bestandsdelRollLx>ACTI</bestandsdelRollLx><bestandsdelTillaggsenhetLx>EQ</bestandsdelTillaggsenhetLx>
+                        <bestandsdelSubstans>
+                            <substansId>idb1d56206</substansId><casNummer>98418-47-4</casNummer><innNamn>metoprolol succinate</innNamn><nplsubstansid>IDE4POHIUBOYPVERT1</nplsubstansid>
+                        </bestandsdelSubstans>
+                    </bestandsdelar>
+                </farmaceutiskaProdukter>
+                <tillaggsnamn>
+                    <gfromDatum>2010-04-07T00:00:00+02:00</gfromDatum><produktnamnTypLx>medprodnamelegal</produktnamnTypLx><namn>Seloken ZOC</namn><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </tillaggsnamn>
+                <tillaggsnamn>
+                    <gfromDatum>2010-04-07T00:00:00+02:00</gfromDatum><produktnamnTypLx>tradename</produktnamnTypLx><namn>Seloken ZOC</namn><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </tillaggsnamn>
+                <produktIntressenter>
+                    <intressentRollLx>MAH</intressentRollLx><namn>IVAX Scandinavia AB</namn>
+                    <intressentAdress>
+                        <adress1>Mailbox 386</adress1><adress2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <adress3>111 73</adress3><adress4>Stockholm</adress4><landKod>SWE</landKod>
+                    </intressentAdress>
+                </produktIntressenter>
+                <lmArtiklar>
+                    <nplpackid>20001229100902</nplpackid><artikelUtbytbarLx>N</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <dddPerForpackning>9.330</dddPerForpackning><tillhandahallsLx>N</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalKlartext>28 tablett(er)</antalKlartext><antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>TABL</antalNumeriskEnhetLx><antalNumeriskt>28.000</antalNumeriskt><artikelBenamning>SelokenZOC depta   50mg IVAX</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <avregistreringsdatum>2005-10-31T00:00:00+01:00</avregistreringsdatum><beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>N</formanLx><forpackningText>Blister, 28 depottabletter</forpackningText><forpackningsTypInreLx>BLI</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <pristypLx>-</pristypLx><receptbelagdLx>Y</receptbelagdLx><varunummer>068346</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>nordiskt-varunr</artikelIdTypLx><gfromDatum>2000-12-29T00:00:00+01:00</gfromDatum><idVarde>068346</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>ean-code</artikelIdTypLx><gfromDatum>2000-12-29T00:00:00+01:00</gfromDatum><idVarde>07046260683464</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1>1</antalMultipel1><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>ST</antalNumerisktEnhet><antalNumeriskt>28.000</antalNumeriskt><pharmaceuticalProductIdNpl>IDE4POQFUG02AVERT1</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <forvaringsfall>
+                        <forvaringsTemperaturLx>1</forvaringsTemperaturLx><forvaringsfallTypLx>1</forvaringsfallTypLx><forvaringssattLx>-</forvaringssattLx><hallbarhet>3</hallbarhet><hallbarhetEnhetLx>5</hallbarhetEnhetLx>
+                    </forvaringsfall>
+                    <validationFailed>false</validationFailed><validationFailedRules/>
+                    <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>false</updatedSinceDelivery><exportable>true</exportable>
+                </lmArtiklar>
+                <lmArtiklar>
+                    <nplpackid>20001229100919</nplpackid><artikelUtbytbarLx>N</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <dddPerForpackning>32.670</dddPerForpackning><tillhandahallsLx>N</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalKlartext>98 tablett(er)</antalKlartext><antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>TABL</antalNumeriskEnhetLx><antalNumeriskt>98.000</antalNumeriskt><artikelBenamning>SelokenZOC depta   50mg IVAX</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <avregistreringsdatum>2005-10-31T00:00:00+01:00</avregistreringsdatum><beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>N</formanLx><forpackningText>Blister, 98 depottabletter</forpackningText><forpackningsTypInreLx>BLI</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <pristypLx>-</pristypLx><receptbelagdLx>Y</receptbelagdLx><varunummer>068353</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>nordiskt-varunr</artikelIdTypLx><gfromDatum>2000-12-29T00:00:00+01:00</gfromDatum><idVarde>068353</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>ean-code</artikelIdTypLx><gfromDatum>2000-12-29T00:00:00+01:00</gfromDatum><idVarde>07046260683532</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1>1</antalMultipel1><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>ST</antalNumerisktEnhet><antalNumeriskt>98.000</antalNumeriskt><pharmaceuticalProductIdNpl>IDE4POQFUG02AVERT1</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <forvaringsfall>
+                        <forvaringsTemperaturLx>1</forvaringsTemperaturLx><forvaringsfallTypLx>1</forvaringsfallTypLx><forvaringssattLx>-</forvaringssattLx><hallbarhet>3</hallbarhet><hallbarhetEnhetLx>5</hallbarhetEnhetLx>
+                    </forvaringsfall>
+                    <validationFailed>false</validationFailed><validationFailedRules/>
+                    <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>false</updatedSinceDelivery><exportable>true</exportable>
+                </lmArtiklar>
+                <validationFailed>false</validationFailed><validationFailedRules/>
+                <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>false</updatedSinceDelivery><exportable>true</exportable>
+            </lmProduktResult>
+            <lmProduktResult>
+                <nplId>20030804000443</nplId><produktnamn>Borsyra APL</produktnamn><antidot>N</antidot><atcKod>S02AA03</atcKod><avvikelseParallellImport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <ddd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <dosBryttillstand>N</dosBryttillstand><dosBryttillstandHallbar>0</dosBryttillstandHallbar><doseringsenhet>-</doseringsenhet><enhetDdd>-</enhetDdd><enhetStyrka>1</enhetStyrka><godkannandeDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <godkannandeProcedur>APL</godkannandeProcedur><godkannandenr xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <lakemedelsform>EAWASO</lakemedelsform><lakemedelsformGrupp>EAR</lakemedelsformGrupp><narkotikaKlass>0</narkotikaKlass><originalNplid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <parallellimportFran xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <sarskildaLakemedel>1</sarskildaLakemedel><styrka>20.000</styrka><styrkaKlartext>20 mg/ml</styrkaKlartext><tillhandahalls>N</tillhandahalls><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <utbytbar>N</utbytbar><veterinarlakemedel>N</veterinarlakemedel><asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <gruppvarunummerLx>N</gruppvarunummerLx><innehallerLaktosLx>-</innehallerLaktosLx><innehallerLatexLx>N</innehallerLatexLx><lakemedel>Y</lakemedel><produktKommentar>Apoteket AB Produktion &amp; Laboratorier (APL)</produktKommentar><produktTyp>APL</produktTyp><receptbelagdLx>0</receptbelagdLx><version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <avregistreringsdatum>2008-07-01T00:00:00+02:00</avregistreringsdatum>
+                <tillaggsnamn>
+                    <gfromDatum>2010-04-07T00:00:00+02:00</gfromDatum><produktnamnTypLx>tradename</produktnamnTypLx><namn>Borsyra APL</namn><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </tillaggsnamn>
+                <produktIntressenter>
+                    <intressentRollLx>SBANSF</intressentRollLx><namn>Apoteket AB Produktion &amp; Laboratorier (APL)</namn>
+                    <intressentAdress>
+                        <adress1>Prismavägen 2</adress1><adress2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <adress3>141 75</adress3><adress4>Stockholm</adress4><landKod>SWE</landKod>
+                    </intressentAdress>
+                </produktIntressenter>
+                <lmArtiklar>
+                    <nplpackid>20031002100508</nplpackid><artikelUtbytbarLx>N</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <dddPerForpackning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <tillhandahallsLx>N</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalKlartext>500 milliliter</antalKlartext><antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>ML</antalNumeriskEnhetLx><antalNumeriskt>500.000</antalNumeriskt><artikelBenamning>Borsyra APL öronsköljv 20mg/ml</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <avregistreringsdatum>2008-07-01T00:00:00+02:00</avregistreringsdatum><beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>N</formanLx><forpackningText>infusionsfl.,500 ml</forpackningText><forpackningsTypInreLx>BOT</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <pristypLx>-</pristypLx><receptbelagdLx>N</receptbelagdLx><varunummer>355776</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>nordiskt-varunr</artikelIdTypLx><gfromDatum>2003-10-02T00:00:00+02:00</gfromDatum><idVarde>355776</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>ean-code</artikelIdTypLx><gfromDatum>2003-10-02T00:00:00+02:00</gfromDatum><idVarde>07313273557762</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <forvaringsfall>
+                        <forvaringsTemperaturLx>-</forvaringsTemperaturLx><forvaringsfallTypLx>1</forvaringsfallTypLx><forvaringssattLx>-</forvaringssattLx><hallbarhet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <hallbarhetEnhetLx>-</hallbarhetEnhetLx>
+                    </forvaringsfall>
+                    <validationFailed>true</validationFailed>
+                    <validationFailedRules>
+                        <failedRule>
+                            <ruleName>Y20762</ruleName><failType>MEDICAL</failType><failLevel>MINOR</failLevel><ruleGroup>FORPACKNING</ruleGroup>
+                        </failedRule>
+                    </validationFailedRules>
+                    <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>false</updatedSinceDelivery><exportable>true</exportable>
+                </lmArtiklar>
+                <validationFailed>false</validationFailed><validationFailedRules/>
+                <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>false</updatedSinceDelivery><exportable>true</exportable>
+            </lmProduktResult>
+            <lmProduktResult>
+                <nplId>20040916000507</nplId><produktnamn>Xolair®</produktnamn><antidot>N</antidot><atcKod>R03DX05</atcKod><avvikelseParallellImport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <ddd>16.00</ddd><dosBryttillstand>N</dosBryttillstand><dosBryttillstandHallbar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <doseringsenhet>-</doseringsenhet><enhetDdd>mg</enhetDdd><enhetStyrka>64</enhetStyrka><godkannandeDatum>2005-10-25T00:00:00+02:00</godkannandeDatum><godkannandeProcedur>2</godkannandeProcedur><godkannandenr>212550</godkannandenr><lakemedelsform>PSSOIJ</lakemedelsform><lakemedelsformGrupp>PAR</lakemedelsformGrupp><narkotikaKlass>0</narkotikaKlass><originalNplid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <parallellimportFran xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <sarskildaLakemedel>1</sarskildaLakemedel><styrka>150.000</styrka><styrkaKlartext>150 mg</styrkaKlartext><tillhandahalls>Y</tillhandahalls><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <utbytbar>Y</utbytbar><veterinarlakemedel>N</veterinarlakemedel><asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <gruppvarunummerLx>N</gruppvarunummerLx><innehallerLaktosLx>N</innehallerLaktosLx><innehallerLatexLx>N</innehallerLatexLx><lakemedel>Y</lakemedel><produktKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <produktTyp>MEP</produktTyp><receptbelagdLx>1</receptbelagdLx><version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <produktUtbytbarheter>
+                    <gfromDatum>2011-07-08T00:00:00+02:00</gfromDatum><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <utbytbarhetFormGruppLx>2297</utbytbarhetFormGruppLx><utbytbarhetStyrkaGruppLx>3991</utbytbarhetStyrkaGruppLx><utbytbarhetSubstansGruppLx>1384</utbytbarhetSubstansGruppLx>
+                </produktUtbytbarheter>
+                <farmaceutiskaProdukter>
+                    <beskrivning>II solvent</beskrivning><pharmaceuticalProductIdNpl>ID6D1GEI1PS84G8MSR</pharmaceuticalProductIdNpl><refererandeMangdLx>FGE</refererandeMangdLx>
+                </farmaceutiskaProdukter>
+                <farmaceutiskaProdukter>
+                    <beskrivning>Ipowder</beskrivning><pharmaceuticalProductIdNpl>ID6D1G7A1PS54GNMSR</pharmaceuticalProductIdNpl><refererandeMangdLx>FGE</refererandeMangdLx>
+                    <bestandsdelar>
+                        <bestandsdelEnhetLx>03</bestandsdelEnhetLx><bestandsdelMangd>150.0000000000</bestandsdelMangd><bestandsdelRollLx>ACTI</bestandsdelRollLx><bestandsdelTillaggsenhetLx>EQ</bestandsdelTillaggsenhetLx>
+                        <bestandsdelSubstans>
+                            <substansId>id8db7c2c9</substansId><casNummer>242138-07-4</casNummer><innNamn>omalizumab</innNamn><nplsubstansid>ID1N90OT9VLGRD3CSR</nplsubstansid>
+                        </bestandsdelSubstans>
+                    </bestandsdelar>
+                </farmaceutiskaProdukter>
+                <tillaggsnamn>
+                    <gfromDatum>2005-10-25T00:00:00+02:00</gfromDatum><produktnamnTypLx>historiskt-tradename</produktnamnTypLx><namn>Xolair</namn><tomDatum>2008-10-15T00:00:00+02:00</tomDatum>
+                </tillaggsnamn>
+                <tillaggsnamn>
+                    <gfromDatum>2005-10-25T00:00:00+02:00</gfromDatum><produktnamnTypLx>historiskt-medprodnamelegal</produktnamnTypLx><namn>Xolair</namn><tomDatum>2008-10-15T00:00:00+02:00</tomDatum>
+                </tillaggsnamn>
+                <tillaggsnamn>
+                    <gfromDatum>2008-10-16T00:00:00+02:00</gfromDatum><produktnamnTypLx>medprodnamelegal</produktnamnTypLx><namn>Xolair</namn><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </tillaggsnamn>
+                <tillaggsnamn>
+                    <gfromDatum>2008-10-16T00:00:00+02:00</gfromDatum><produktnamnTypLx>tradename</produktnamnTypLx><namn>Xolair®</namn><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </tillaggsnamn>
+                <produktIntressenter>
+                    <intressentRollLx>MAH</intressentRollLx><namn>Novartis Europharm Ltd</namn>
+                    <intressentAdress>
+                        <adress1>Wimblehurst Road</adress1><adress2>Horsham</adress2><adress3>West Sussex RH12 5AB</adress3><adress4 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <landKod>GBR</landKod>
+                    </intressentAdress>
+                </produktIntressenter>
+                <produktIntressenter>
+                    <intressentRollLx>AGENT</intressentRollLx><namn>Novartis Sverige AB</namn>
+                    <intressentAdress>
+                        <adress1>Box 1150</adress1><adress2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <adress3>183 11</adress3><adress4>Täby</adress4><landKod>SWE</landKod>
+                    </intressentAdress>
+                </produktIntressenter>
+                <lmArtiklar>
+                    <nplpackid>20101112100269</nplpackid><artikelUtbytbarLx>Y</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <dddPerForpackning>9.380</dddPerForpackning><tillhandahallsLx>Y</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalKlartext>1 styck</antalKlartext><antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>ST</antalNumeriskEnhetLx><antalNumeriskt>1.000</antalNumeriskt><artikelBenamning>Xolair, pulv och vätska till inj-vätska, lösning 150 mg Abacus Medicine Aps</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>Y</formanLx><forpackningText>Injektionsflaska och ampull 1 x (I+II) (PD: Abacus Medicine ApS)</forpackningText><forpackningsTypInreLx>VIA</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <pristypLx>PARDIS</pristypLx><receptbelagdLx>Y</receptbelagdLx><varunummer>042257</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>nordiskt-varunr</artikelIdTypLx><gfromDatum>2011-03-31T00:00:00+02:00</gfromDatum><idVarde>042257</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>ean-code</artikelIdTypLx><gfromDatum>2011-03-31T00:00:00+02:00</gfromDatum><idVarde>07046260422575</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <priser>
+                        <aip>3574.00</aip><aup>3692.50</aup><gfromDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </priser>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>-</antalNumerisktEnhet><antalNumeriskt>0.000</antalNumeriskt><pharmaceuticalProductIdNpl>ID6D1G7A1PS54GNMSR</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>-</antalNumerisktEnhet><antalNumeriskt>0.000</antalNumeriskt><pharmaceuticalProductIdNpl>ID6D1GEI1PS84G8MSR</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <artikelIntressenter>
+                        <intressentRollLx>PARDIS</intressentRollLx><namn>Abacus Medicine Aps</namn>
+                        <intressentAdress>
+                            <adress1>Vesterbrogade 149</adress1><adress2>DK-1620 Köpenhamn V</adress2><adress3 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                            <adress4 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                            <landKod>DNK</landKod>
+                        </intressentAdress>
+                    </artikelIntressenter>
+                    <forvaringsfall>
+                        <forvaringsTemperaturLx>10</forvaringsTemperaturLx><forvaringsfallTypLx>1</forvaringsfallTypLx><forvaringssattLx>-</forvaringssattLx><hallbarhet>4</hallbarhet><hallbarhetEnhetLx>5</hallbarhetEnhetLx>
+                    </forvaringsfall>
+                    <validationFailed>false</validationFailed><validationFailedRules/>
+                    <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>true</updatedSinceDelivery><exportable>true</exportable>
+                </lmArtiklar>
+                <lmArtiklar>
+                    <nplpackid>20040913100262</nplpackid><artikelUtbytbarLx>Y</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <dddPerForpackning>9.380</dddPerForpackning><tillhandahallsLx>N</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalKlartext>1 styck</antalKlartext><antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>ST</antalNumeriskEnhetLx><antalNumeriskt>1.000</antalNumeriskt><artikelBenamning>Xolair pu o vä inj, lö 150mg</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>Y</formanLx><forpackningText>Injektionsflaska och ampull 1 x (I+II)</forpackningText><forpackningsTypInreLx>CPA</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <pristypLx>ORG</pristypLx><receptbelagdLx>Y</receptbelagdLx><varunummer>004863</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>nordiskt-varunr</artikelIdTypLx><gfromDatum>2004-09-13T00:00:00+02:00</gfromDatum><idVarde>004863</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>ean-code</artikelIdTypLx><gfromDatum>2004-09-13T00:00:00+02:00</gfromDatum><idVarde>07046260048638</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <priser>
+                        <aip>3575.00</aip><aup>3693.50</aup><gfromDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </priser>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>-</antalNumerisktEnhet><antalNumeriskt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <pharmaceuticalProductIdNpl>ID6D1G7A1PS54GNMSR</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>-</antalNumerisktEnhet><antalNumeriskt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <pharmaceuticalProductIdNpl>ID6D1GEI1PS84G8MSR</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <forvaringsfall>
+                        <forvaringsTemperaturLx>1</forvaringsTemperaturLx><forvaringsfallTypLx>1</forvaringsfallTypLx><forvaringssattLx>-</forvaringssattLx><hallbarhet>5</hallbarhet><hallbarhetEnhetLx>5</hallbarhetEnhetLx>
+                    </forvaringsfall>
+                    <forvaringsfall>
+                        <forvaringsTemperaturLx>10</forvaringsTemperaturLx><forvaringsfallTypLx>1</forvaringsfallTypLx><forvaringssattLx>-</forvaringssattLx><hallbarhet>4</hallbarhet><hallbarhetEnhetLx>5</hallbarhetEnhetLx>
+                    </forvaringsfall>
+                    <validationFailed>true</validationFailed>
+                    <validationFailedRules>
+                        <failedRule>
+                            <ruleName>Y20762</ruleName><failType>MEDICAL</failType><failLevel>MAJOR</failLevel><ruleGroup>FORPACKNING</ruleGroup>
+                        </failedRule>
+                    </validationFailedRules>
+                    <excludedFromDelivery>true</excludedFromDelivery><updatedSinceDelivery>true</updatedSinceDelivery><exportable>true</exportable>
+                </lmArtiklar>
+                <lmArtiklar>
+                    <nplpackid>20110303100841</nplpackid><artikelUtbytbarLx>Y</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <dddPerForpackning>9.380</dddPerForpackning><tillhandahallsLx>Y</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalKlartext>1 styck</antalKlartext><antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>ST</antalNumeriskEnhetLx><antalNumeriskt>1.000</antalNumeriskt><artikelBenamning>Xolair, pulv och vätska till inj-vätska, lösning 150 mg Orifarm AB</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>Y</formanLx><forpackningText>Injektionsflaska och ampull 1 x (I+II) (PD: Orifarm AB)</forpackningText><forpackningsTypInreLx>CPA</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <pristypLx>PARDIS</pristypLx><receptbelagdLx>Y</receptbelagdLx><varunummer>489888</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>nordiskt-varunr</artikelIdTypLx><gfromDatum>2011-05-18T00:00:00+02:00</gfromDatum><idVarde>489888</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <artikelIdentiteter>
+                        <artikelIdTypLx>ean-code</artikelIdTypLx><gfromDatum>2011-05-18T00:00:00+02:00</gfromDatum><idVarde>7046264898888</idVarde><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </artikelIdentiteter>
+                    <priser>
+                        <aip>3570.00</aip><aup>3688.50</aup><gfromDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    </priser>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>-</antalNumerisktEnhet><antalNumeriskt>0.000</antalNumeriskt><pharmaceuticalProductIdNpl>ID6D1G7A1PS54GNMSR</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <antalFarmaceutiskProdukt>
+                        <antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <antalNumerisktEnhet>-</antalNumerisktEnhet><antalNumeriskt>0.000</antalNumeriskt><pharmaceuticalProductIdNpl>ID6D1GEI1PS84G8MSR</pharmaceuticalProductIdNpl>
+                    </antalFarmaceutiskProdukt>
+                    <artikelIntressenter>
+                        <intressentRollLx>PARDIS</intressentRollLx><namn>Orifarm AB</namn>
+                        <intressentAdress>
+                            <adress1>Box 50231</adress1><adress2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                            <adress3>202 12</adress3><adress4>Malmö</adress4><landKod>SWE</landKod>
+                        </intressentAdress>
+                    </artikelIntressenter>
+                    <forvaringsfall>
+                        <forvaringsTemperaturLx>1</forvaringsTemperaturLx><forvaringsfallTypLx>1</forvaringsfallTypLx><forvaringssattLx>-</forvaringssattLx><hallbarhet>5</hallbarhet><hallbarhetEnhetLx>5</hallbarhetEnhetLx>
+                    </forvaringsfall>
+                    <forvaringsfall>
+                        <forvaringsTemperaturLx>10</forvaringsTemperaturLx><forvaringsfallTypLx>1</forvaringsfallTypLx><forvaringssattLx>-</forvaringssattLx><hallbarhet>4</hallbarhet><hallbarhetEnhetLx>5</hallbarhetEnhetLx>
+                    </forvaringsfall>
+                    <validationFailed>true</validationFailed>
+                    <validationFailedRules>
+                        <failedRule>
+                            <ruleName>Y20762</ruleName><failType>MEDICAL</failType><failLevel>MAJOR</failLevel><ruleGroup>FORPACKNING</ruleGroup>
+                        </failedRule>
+                    </validationFailedRules>
+                    <excludedFromDelivery>true</excludedFromDelivery><updatedSinceDelivery>true</updatedSinceDelivery><exportable>true</exportable>
+                </lmArtiklar>
+                <validationFailed>true</validationFailed>
+                <validationFailedRules>
+                    <failedRule>
+                        <ruleName>V20651</ruleName><failType>MEDICAL</failType><failLevel>MAJOR</failLevel><ruleGroup>UTBYTBARHET</ruleGroup>
+                    </failedRule>
+                </validationFailedRules>
+                <excludedFromDelivery>true</excludedFromDelivery><updatedSinceDelivery>true</updatedSinceDelivery><exportable>true</exportable>
+            </lmProduktResult>
+        </ns2:retrieveLmProduktResponse>
+    </soap:Body>
+</soap:Envelope>
