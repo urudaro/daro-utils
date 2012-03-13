@@ -10,8 +10,8 @@
 
 def py_element (ele):
     """Process recursively the individual element 'ele' converting it into a python dictionary.
-    Each subnode is converted in a item in this dictionary. 
-    If many subnodes has the same tag, they are converted into al Python list.
+    Each subnode is converted in an item in this dictionary. 
+    If multiple subnodes has the same tag, they are converted into al Python list.
     If a key, value pair has the form x:{y:[...]} , it is converted into x: [...], ignoring the middle key y"""
     result = {}
     rc = []
@@ -54,7 +54,22 @@ def py_document (dom_doc):
     result [top_element.tagName] =  py_element (top_element)
     return result
     
-
+def ignoring_keys (d,  keys):
+    """Navigate recursivelly the object 'd' converting it by ignoring all the occurrencies of each key in the given list 'keys'."""
+    if isinstance (d, list):
+        result = [ignoring_keys (x,  keys) for x in d]
+    elif isinstance (d,  dict):
+        result = {}
+        ks = d.keys()
+        for k in ks:
+            if k == 'npl:routes':
+                pass
+            if not k in keys:
+                v = d [k]
+                result [k] = ignoring_keys (v,  keys)
+    else:
+        result = d
+    return result
 
 
 if __name__ == '__main__':
@@ -75,6 +90,9 @@ if __name__ == '__main__':
     parser.add_option("-t", "--indent", dest="itab",
                       help="Indent size")
 
+    parser.add_option("-k", "--ignore_keys", dest="keys",
+                      help="Ignore keys in the output. Eg: -k xlns, npl")
+
     (options, args) = parser.parse_args()
 
     if options.infn:
@@ -91,8 +109,22 @@ if __name__ == '__main__':
         itab = int (options.itab)
     else:
         itab = 1
+    
+    ignore_keys = False
+    if options.keys:
+        ignore_keys = True
+        if options.keys [0] == "@":
+            fn = options.keys [1:]
+            f = file (fn)
+            keys = f.readlines()
+            f.close()
+        else:
+            keys = options.keys.split (",")
+        keys = [x.strip() for x in keys]
 
     
     dom_document = xml.parse (input)
     pydata = py_document (dom_document)
+    if ignore_keys:
+        pydata = ignoring_keys (pydata, keys)
     pprint.pprint (pydata,  stream=output,  indent=1)
