@@ -70,8 +70,23 @@ def ignoring_keys (d,  keys):
     else:
         result = d
     return result
-
-
+    
+def reduced_oel (d,  pairs):
+    if isinstance (d, list):
+        result = [reduced_oel (x,  pairs) for x in d]
+    elif isinstance (d,  dict):
+        result = {}
+        ks = d.keys()
+        for k in ks:
+            if k in pairs and isinstance (d [k],  dict) and len (d [k]) == 1 and d [k].keys()[0] in pairs [k]:
+                k1 = d [k].keys()[0]
+                d [k] = [d [k][k1]]
+            v = d [k]
+            result [k] = reduced_oel (v,  pairs)
+    else:
+        result = d
+    return result
+    
 if __name__ == '__main__':
     import sys,  os,  pprint
     import optparse
@@ -92,6 +107,9 @@ if __name__ == '__main__':
 
     parser.add_option("-k", "--ignore_keys", dest="keys",
                       help="Ignore keys in the output. Eg: -k xlns, npl")
+
+    parser.add_option("-e", "--oel", dest="oel",
+                      help="Key combinations reprenting one element lists. Eg: -e patients/patient, prices/price")
 
     (options, args) = parser.parse_args()
 
@@ -122,9 +140,33 @@ if __name__ == '__main__':
             keys = options.keys.split (",")
         keys = [x.strip() for x in keys]
 
+    generate_oel = False
+    if options.oel:
+        generate_oel = True
+        if options.oel [0] == "@":
+            fn = options.oel [1:]
+            f = file (fn)
+            pairs = f.readlines()
+            f.close()
+        else:
+            pairs = options.oel.split (",")
+            
+        oel_pairs = {}
+        for p in pairs:
+            p = p.split ("/")
+            if len (p) != 2: sys.exit (1)
+            p = [x.strip() for x in p]
+            if not p[0] in oel_pairs :
+                oel_pairs [p[0]] = []
+            oel_pairs [p[0]] += [p [1]]
+
     
     dom_document = xml.parse (input)
     pydata = py_document (dom_document)
     if ignore_keys:
         pydata = ignoring_keys (pydata, keys)
+        
+    if generate_oel:
+        pydata = reduced_oel (pydata,  oel_pairs)
+        
     pprint.pprint (pydata,  stream=output,  indent=1)
