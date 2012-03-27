@@ -15,7 +15,7 @@
       {'name': 'xpyze',
       'files': [
         {'from': '$xmod/xpyze.py', 'to': '.'},
-        {'from': 'src/scripts/pyze.py', 'to': '.', 'chmod': '0744'},
+        {'from': 'src/scripts/pyze.py', 'to-file': 'pyze', 'chmod': '0744'},
         {'from': '$xmod/setup.py', 'to': '.', 'chmod': '0744'}
       ]
       }
