@@ -11,6 +11,22 @@
 import sys,  os,  pprint
 import optparse
 
+def addressed_obj (obj, k):
+    """Subobject addressed by the key 'k'"""
+    if isinstance (obj,  dict):
+        if k in obj:
+            o = obj [k]
+            return o
+        else:
+            sys.exit (1)
+    elif isinstance (obj, list) or isinstance (obj, tuple):
+        i = int (k)
+        o = obj [i]
+        return o
+    else:
+        sys.exit (1)
+
+
 usage = "usage: %prog [options] arg"
 parser = optparse.OptionParser(usage)
 
@@ -52,19 +68,13 @@ if options.ptype:
         sys.exit (0)
     else:
         sys.exit (1)
-        
 elif  options.key:
-    k = options.key
-    if isinstance (obj,  dict):
-        if k in obj:
-            o = obj [k]
-            pprint.pprint (o)
-        else:
-            sys.exit (1)
-    else:
-        i = int (k)
-        o = obj [i]
-        pprint.pprint (o)
+    ks = options.key
+    ks = ks.split ("/")
+    o = obj
+    for k in ks:
+        o = addressed_obj  (o, k)
+    pprint.pprint (o)
 else:
     pprint.pprint (obj)
     
