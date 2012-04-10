@@ -72,6 +72,7 @@ def ignoring_keys (d,  keys):
     return result
     
 def reduced_oel (d,  pairs):
+    """Convert dictionaries representing one-element-lists to proper lists with one element"""
     if isinstance (d, list):
         result = [reduced_oel (x,  pairs) for x in d]
     elif isinstance (d,  dict):
