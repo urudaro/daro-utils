@@ -8,9 +8,23 @@
 # LastChangedBy: $LastChangedBy: $
 # HeadURL: $HeadURL: $
 
-def py_element (ele):
+def py_element (ele,  strict=False):
     """Process recursively the individual element 'ele' converting it into a python dictionary.
     Each subnode is converted in an item in this dictionary. 
+    there are to modes of converting xml into python:
+    Strict -- Evrything is converted into dictionaries, each xml tag is converted in a key and elements in items of a  list.
+    <a ... >
+       <b ...>B1</b>
+       <b ...>B2</b>
+       <c ...>B3</c>
+    </a>
+    is converted in 
+    {'a':[{ ...,
+          'b': [{ ..., '_': 'B1'}, {..., '_':'B2'}],
+          'c': [{ ..., '_': 'B3'}]
+        }]
+    }
+    Relaxed --   
     If multiple subnodes has the same tag, they are converted into al Python list.
     If a key, value pair has the form x:{y:[...]} , it is converted into x: [...], ignoring the middle key y"""
     result = {}
@@ -19,12 +33,17 @@ def py_element (ele):
     for ch in chs:
         if ch.nodeType == ch.ELEMENT_NODE:
             key = ch.tagName
-            if key in result:
-                if not isinstance (result [key], list):
-                    result [key] = [result [key]]
-                result [key].append (py_element (ch))
+            if not strict:
+                if key in result:
+                    if not isinstance (result [key], list):
+                        result [key] = [result [key]]
+                    result [key].append (py_element (ch))
+                else:
+                    result [key] = py_element (ch)
             else:
-                result [key] = py_element (ch)
+                if not key in result:
+                    result [key] = []
+                result [key] += [py_element (ch)]
         elif ch.nodeType == ch.ATTRIBUTE_NODE:
             result [ch.name + u"_"] = ch.value
         elif ch.nodeType == ch.TEXT_NODE:
@@ -47,11 +66,11 @@ def py_element (ele):
         result = None
     return result
     
-def py_document (dom_doc):
+def py_document (dom_doc, strict=False):
     """Convert xml-dom document into a Python data structure"""
     top_element = dom_doc.documentElement
     result = {}
-    result [top_element.tagName] =  py_element (top_element)
+    result [top_element.tagName] =  py_element (top_element,  strict=strict)
     return result
     
 def ignoring_keys (d,  keys):
@@ -72,7 +91,9 @@ def ignoring_keys (d,  keys):
     return result
     
 def reduced_oel (d,  pairs):
-    """Convert dictionaries representing one-element-lists to proper lists with one element"""
+    """Convert dictionaries representing one-element-lists to proper lists with one element
+    The argument pairs is a list of two element items. If the pair is ['alist', 'anelement'], 
+    each occurrence of the sequence of keys 'alist': {'anelement: xyx} is converted in a oel (one element list): alist: [xyx]"""
     if isinstance (d, list):
         result = [reduced_oel (x,  pairs) for x in d]
     elif isinstance (d,  dict):
@@ -106,6 +127,10 @@ if __name__ == '__main__':
     parser.add_option("-t", "--indent", dest="itab",
                       help="Indent size")
 
+    parser.add_option("-s", "--strict",
+                      action="store_true", default=False,  dest="strict", 
+                      help = "Generate python in strict mode")
+
     parser.add_option("-k", "--ignore_keys", dest="keys",
                       help="Ignore keys in the output. Eg: -k xlns, npl")
 
@@ -128,6 +153,8 @@ if __name__ == '__main__':
         itab = int (options.itab)
     else:
         itab = 1
+        
+    strict = options.strict
     
     ignore_keys = False
     if options.keys:
@@ -163,7 +190,7 @@ if __name__ == '__main__':
 
     
     dom_document = xml.parse (input)
-    pydata = py_document (dom_document)
+    pydata = py_document (dom_document, strict=options.strict)
     if ignore_keys:
         pydata = ignoring_keys (pydata, keys)
         
