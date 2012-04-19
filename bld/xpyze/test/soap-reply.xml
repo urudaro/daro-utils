@@ -32,7 +32,7 @@
                     <intressentRollLx>MAH</intressentRollLx><namn>Orifarm AB</namn>
                     <intressentAdress>
                         <adress1>Box 50231</adress1><adress2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
-                        <adress3>202 12</adress3><adress4>Malmö</adress4><landKod>SWE</landKod>
+                        <adress3>202 12</adress3><adress4>MalmÃ¶</adress4><landKod>SWE</landKod>
                     </intressentAdress>
                 </produktIntressenter>
                 <lmArtiklar>
@@ -40,7 +40,7 @@
                     <dddPerForpackning>11.110</dddPerForpackning><tillhandahallsLx>N</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <antalKlartext>50 kapsel/kapslar</antalKlartext><antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
-                    <antalNumeriskEnhetLx>CAPS</antalNumeriskEnhetLx><antalNumeriskt>50.000</antalNumeriskt><artikelBenamning>Neurontin, Kapsel, hård 400 mg Orifarm AB</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>CAPS</antalNumeriskEnhetLx><antalNumeriskt>50.000</antalNumeriskt><artikelBenamning>Neurontin, Kapsel, hÃ¥rd 400 mg Orifarm AB</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
@@ -75,7 +75,7 @@
                     <dddPerForpackning>22.220</dddPerForpackning><tillhandahallsLx>N</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <antalKlartext>100 kapsel/kapslar</antalKlartext><antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
-                    <antalNumeriskEnhetLx>CAPS</antalNumeriskEnhetLx><antalNumeriskt>100.000</antalNumeriskt><artikelBenamning>Neurontin, Kapsel, hård 400 mg Orifarm AB</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>CAPS</antalNumeriskEnhetLx><antalNumeriskt>100.000</antalNumeriskt><artikelBenamning>Neurontin, Kapsel, hÃ¥rd 400 mg Orifarm AB</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
@@ -109,7 +109,7 @@
                 <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>true</updatedSinceDelivery><exportable>true</exportable>
             </lmProduktResult>
             <lmProduktResult>
-                <nplId>20091105000310</nplId><produktnamn>Cisordinol®</produktnamn><antidot>N</antidot><atcKod>N05AF05</atcKod><avvikelseParallellImport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <nplId>20091105000310</nplId><produktnamn>CisordinolÂ©</produktnamn><antidot>N</antidot><atcKod>N05AF05</atcKod><avvikelseParallellImport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                 <ddd>30.00</ddd><dosBryttillstand>N</dosBryttillstand><dosBryttillstandHallbar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                 <doseringsenhet>-</doseringsenhet><enhetDdd>mg</enhetDdd><enhetStyrka>64</enhetStyrka><godkannandeDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                 <godkannandeProcedur>APL</godkannandeProcedur><godkannandenr xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
@@ -121,12 +121,12 @@
                 <gruppvarunummerLx>N</gruppvarunummerLx><innehallerLaktosLx>-</innehallerLaktosLx><innehallerLatexLx>N</innehallerLatexLx><lakemedel>Y</lakemedel><produktKommentar>Apoteket AB Produktion &amp; Laboratorier (APL)</produktKommentar><produktTyp>APL</produktTyp><receptbelagdLx>1</receptbelagdLx><version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                 <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                 <tillaggsnamn>
-                    <gfromDatum>2010-04-07T00:00:00+02:00</gfromDatum><produktnamnTypLx>tradename</produktnamnTypLx><namn>Cisordinol®</namn><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <gfromDatum>2010-04-07T00:00:00+02:00</gfromDatum><produktnamnTypLx>tradename</produktnamnTypLx><namn>CisordinolÂ©</namn><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                 </tillaggsnamn>
                 <produktIntressenter>
                     <intressentRollLx>SBANSF</intressentRollLx><namn>Apoteket AB Produktion &amp; Laboratorier (APL)</namn>
                     <intressentAdress>
-                        <adress1>Prismavägen 2</adress1><adress2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <adress1>PrismavÃ¤gen 2</adress1><adress2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                         <adress3>141 75</adress3><adress4>Stockholm</adress4><landKod>SWE</landKod>
                     </intressentAdress>
                 </produktIntressenter>
@@ -224,7 +224,7 @@
                     <tillhandahallsLx>Y</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <antalKlartext>100 milliliter</antalKlartext><antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
-                    <antalNumeriskEnhetLx>ML</antalNumeriskEnhetLx><antalNumeriskt>100.000</antalNumeriskt><artikelBenamning>Cynaramin, Orala droppar, lösning </artikelBenamning><artikelKommentar>Innehåller även tinkturer av örterna kronärtskocka (Cynara scolymus L.) och pepparmynta (Mentha piperita L.).</artikelKommentar><artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>ML</antalNumeriskEnhetLx><antalNumeriskt>100.000</antalNumeriskt><artikelBenamning>Cynaramin, Orala droppar, lÃ¶sning </artikelBenamning><artikelKommentar>InnehÃ¥ller Ã¤ven tinkturer av Ã¶rterna kronÃ¤rtskocka (Cynara scolymus L.) och pepparmynta (Mentha piperita L.).</artikelKommentar><artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
@@ -256,7 +256,7 @@
                     <tillhandahallsLx>Y</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <antalKlartext>50 milliliter</antalKlartext><antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
-                    <antalNumeriskEnhetLx>ML</antalNumeriskEnhetLx><antalNumeriskt>50.000</antalNumeriskt><artikelBenamning>Cynaramin, Orala droppar, lösning </artikelBenamning><artikelKommentar>Innehåller även tinkturer av örterna kronärtskocka (Cynara scolymus L.) och pepparmynta (Mentha piperita L.).</artikelKommentar><artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>ML</antalNumeriskEnhetLx><antalNumeriskt>50.000</antalNumeriskt><artikelBenamning>Cynaramin, Orala droppar, lÃ¶sning </artikelBenamning><artikelKommentar>InnehÃ¥ller Ã¤ven tinkturer av Ã¶rterna kronÃ¤rtskocka (Cynara scolymus L.) och pepparmynta (Mentha piperita L.).</artikelKommentar><artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
@@ -309,7 +309,7 @@
                 <produktIntressenter>
                     <intressentRollLx>SBANSF</intressentRollLx><namn>Apoteket AB Produktion &amp; Laboratorier (APL)</namn>
                     <intressentAdress>
-                        <adress1>Prismavägen 2</adress1><adress2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <adress1>PrismavÃ¤gen 2</adress1><adress2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                         <adress3>141 75</adress3><adress4>Stockholm</adress4><landKod>SWE</landKod>
                     </intressentAdress>
                 </produktIntressenter>
@@ -319,7 +319,7 @@
                     <tillhandahallsLx>Y</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <antalKlartext>50 milliliter</antalKlartext><antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
-                    <antalNumeriskEnhetLx>ML</antalNumeriskEnhetLx><antalNumeriskt>50.000</antalNumeriskt><artikelBenamning>Jodopax dentallösn 0,04% jod </artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>ML</antalNumeriskEnhetLx><antalNumeriskt>50.000</antalNumeriskt><artikelBenamning>Jodopax dentallÃ¶sn 0,04% jod </artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
@@ -544,17 +544,17 @@
                     <gfromDatum>2004-11-01T00:00:00+01:00</gfromDatum><produktnamnTypLx>historiskt-tradename</produktnamnTypLx><namn>Desmopressin Nordic</namn><tomDatum>2007-05-15T00:00:00+02:00</tomDatum>
                 </tillaggsnamn>
                 <produktIntressenter>
-                    <intressentRollLx>MAH</intressentRollLx><namn>Ferring Läkemedel AB</namn>
+                    <intressentRollLx>MAH</intressentRollLx><namn>Ferring LÃ¤kemedel AB</namn>
                     <intressentAdress>
                         <adress1>Box 4041</adress1><adress2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
-                        <adress3>203 11</adress3><adress4>Malmö</adress4><landKod>SWE</landKod>
+                        <adress3>203 11</adress3><adress4>MalmÃ¶</adress4><landKod>SWE</landKod>
                     </intressentAdress>
                 </produktIntressenter>
                 <lmArtiklar>
                     <nplpackid>20040901100632</nplpackid><artikelUtbytbarLx>Y</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <dddPerForpackning>24.000</dddPerForpackning><tillhandahallsLx>N</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <antalKlartext>1 x 60 dos(er)</antalKlartext><antalMultipel1>1</antalMultipel1><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
-                    <antalNumeriskEnhetLx>DOSER</antalNumeriskEnhetLx><antalNumeriskt>60.000</antalNumeriskt><artikelBenamning>Desmopressin Fer näsp10mkg/dos</artikelBenamning><artikelKommentar>Marknadsförs ej</artikelKommentar><artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>DOSER</antalNumeriskEnhetLx><antalNumeriskt>60.000</antalNumeriskt><artikelBenamning>Desmopressin Fer nÃ¤sp10mkg/dos</artikelBenamning><artikelKommentar>MarknadsfÃ¶rs ej</artikelKommentar><artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
@@ -602,7 +602,7 @@
                     <validationFailed>true</validationFailed>
                     <validationFailedRules>
                         <failedRule>
-                            <ruleName>Y20762</ruleName><failType>MEDICAL</failType><failLevel>MAJOR</failLevel><ruleGroup>FORPACKNING</ruleGroup><decision>NOTIFY</decision><decisionDate>2011-08-24T23:20:15.243+02:00</decisionDate><decisionComment>jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj</decisionComment><decisionHistory>2011-08-24 23:20 NOTIFY Jessica jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\n\n2011-08-24 22:56 IGNORE  \n\n2011-08-24 16:52 STOP Jessica Denna rtikel måste stoppas!!!!\n\n2011-08-24 16:52 STOP Jessica Denna rtikel måste stoppas!!!!\n\n2011-08-24 15:31 IGNORE  \n\n2011-08-24 13:51 IGNORE  \n\n2011-08-24 10:29 NOTIFY Jessica Anmärk1\n\n2011-08-24 10:27 IGNORE  </decisionHistory><decisionBy>Jessica</decisionBy>
+                            <ruleName>Y20762</ruleName><failType>MEDICAL</failType><failLevel>MAJOR</failLevel><ruleGroup>FORPACKNING</ruleGroup><decision>NOTIFY</decision><decisionDate>2011-08-24T23:20:15.243+02:00</decisionDate><decisionComment>jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj</decisionComment><decisionHistory>2011-08-24 23:20 NOTIFY Jessica jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\n\n2011-08-24 22:56 IGNORE  \n\n2011-08-24 16:52 STOP Jessica Denna rtikel mÃ¥ste stoppas!!!!\n\n2011-08-24 16:52 STOP Jessica Denna rtikel mÃ¥ste stoppas!!!!\n\n2011-08-24 15:31 IGNORE  \n\n2011-08-24 13:51 IGNORE  \n\n2011-08-24 10:29 NOTIFY Jessica AnmÃ¤rk1\n\n2011-08-24 10:27 IGNORE  </decisionHistory><decisionBy>Jessica</decisionBy>
                         </failedRule>
                     </validationFailedRules>
                     <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>true</updatedSinceDelivery><exportable>true</exportable>
@@ -611,7 +611,7 @@
                     <nplpackid>20040901100656</nplpackid><artikelUtbytbarLx>Y</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <dddPerForpackning>72.000</dddPerForpackning><tillhandahallsLx>N</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <antalKlartext>3 x 60 dos(er)</antalKlartext><antalMultipel1>3</antalMultipel1><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
-                    <antalNumeriskEnhetLx>DOSER</antalNumeriskEnhetLx><antalNumeriskt>60.000</antalNumeriskt><artikelBenamning>Desmopressin Fer näsp10mkg/dos</artikelBenamning><artikelKommentar>marknadsförs ej</artikelKommentar><artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>DOSER</antalNumeriskEnhetLx><antalNumeriskt>60.000</antalNumeriskt><artikelBenamning>Desmopressin Fer nÃ¤sp10mkg/dos</artikelBenamning><artikelKommentar>marknadsfÃ¶rs ej</artikelKommentar><artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
@@ -668,7 +668,7 @@
                     <nplpackid>20040901100670</nplpackid><artikelUtbytbarLx>Y</artikelUtbytbarLx><artikelUtbytbarOrsak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <dddPerForpackning>10.000</dddPerForpackning><tillhandahallsLx>N</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <antalKlartext>1 x 25 dos(er)</antalKlartext><antalMultipel1>1</antalMultipel1><antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
-                    <antalNumeriskEnhetLx>DOSER</antalNumeriskEnhetLx><antalNumeriskt>25.000</antalNumeriskt><artikelBenamning>Desmopressin Fer näsp10mkg/dos</artikelBenamning><artikelKommentar>Marknadsförs ej</artikelKommentar><artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>DOSER</antalNumeriskEnhetLx><antalNumeriskt>25.000</antalNumeriskt><artikelBenamning>Desmopressin Fer nÃ¤sp10mkg/dos</artikelBenamning><artikelKommentar>MarknadsfÃ¶rs ej</artikelKommentar><artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
@@ -724,8 +724,8 @@
                 <validationFailed>true</validationFailed>
                 <validationFailedRules>
                     <failedRule>
-                        <ruleName>V20760</ruleName><failType>MEDICAL</failType><failLevel>MAJOR</failLevel><ruleGroup>UTBYTBARHET</ruleGroup><decision>NOTIFY</decision><decisionDate>2011-08-24T23:20:15.555+02:00</decisionDate><decisionComment>kkkllllllllllllllllllll</decisionComment><decisionHistory>2011-08-24 23:20 NOTIFY Jessica kkkllllllllllllllllllll\n\n2011-08-24 22:56 IGNORE  \n\n2011-08-24 16:52 NOTIFY Jessica Här kommer en anmärkning &#xD;
-                            sdfffffffffffffffffffffffffffffffffffhhhhhhhhhhhhhhhhh fftg\n\n2011-08-24 16:52 NOTIFY Jessica Här kommer en anmärkning &#xD;
+                        <ruleName>V20760</ruleName><failType>MEDICAL</failType><failLevel>MAJOR</failLevel><ruleGroup>UTBYTBARHET</ruleGroup><decision>NOTIFY</decision><decisionDate>2011-08-24T23:20:15.555+02:00</decisionDate><decisionComment>kkkllllllllllllllllllll</decisionComment><decisionHistory>2011-08-24 23:20 NOTIFY Jessica kkkllllllllllllllllllll\n\n2011-08-24 22:56 IGNORE  \n\n2011-08-24 16:52 NOTIFY Jessica HÃ¤r kommer en anmÃ¤rkning &#xD;
+                            sdfffffffffffffffffffffffffffffffffffhhhhhhhhhhhhhhhhh fftg\n\n2011-08-24 16:52 NOTIFY Jessica HÃ¤r kommer en anmÃ¤rkning &#xD;
                             sdfffffffffffffffffffffffffffffffffffhhhhhhhhhhhhhhhhh fftg\n\n2011-08-24 15:31 IGNORE  \n\n2011-08-24 15:14 IGNORE  \n\n2011-08-24 15:06 IGNORE  \n\n2011-08-24 14:29 IGNORE  \n\n2011-08-24 14:25 IGNORE  \n\n2011-08-24 14:11 NOTIFY gew feaw\n\n2011-08-24 14:01 IGNORE  \n\n2011-08-24 13:51 IGNORE  \n\n2011-08-24 10:27 WARNING Jessica Varna1
                         </decisionHistory>
                         <decisionBy>Jessica</decisionBy>
@@ -805,7 +805,7 @@
                 <produktIntressenter>
                     <intressentRollLx>AGENT</intressentRollLx><namn>Fresenius Medical Care Sverige AB</namn>
                     <intressentAdress>
-                        <adress1>Djupdalsvägen 1</adress1><adress2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <adress1>DjupdalsvÃ¤gen 1</adress1><adress2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                         <adress3>192 51</adress3><adress4>Sollentuna</adress4><landKod>SWE</landKod>
                     </intressentAdress>
                 </produktIntressenter>
@@ -827,7 +827,7 @@
                     <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
-                    <formanLx>Y</formanLx><forpackningText>Dubbelkammarpåsar (Stay Safe), 4 x 2500 ml</forpackningText><forpackningsTypInreLx>BAG</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>Y</formanLx><forpackningText>DubbelkammarpÃ¥sar (Stay Safe), 4 x 2500 ml</forpackningText><forpackningsTypInreLx>BAG</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <pristypLx>GEN</pristypLx><receptbelagdLx>Y</receptbelagdLx><varunummer>009216</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
@@ -865,7 +865,7 @@
                     <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
-                    <formanLx>Y</formanLx><forpackningText>Dubbelkammarpåsar (Sleep Safe), 4 x 3000 ml</forpackningText><forpackningsTypInreLx>BAG</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>Y</formanLx><forpackningText>DubbelkammarpÃ¥sar (Sleep Safe), 4 x 3000 ml</forpackningText><forpackningsTypInreLx>BAG</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <pristypLx>GEN</pristypLx><receptbelagdLx>Y</receptbelagdLx><varunummer>009624</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
@@ -903,7 +903,7 @@
                     <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
-                    <formanLx>Y</formanLx><forpackningText>Dubbelkammarpåsar (Sleep Safe), 2 x 5000 ml</forpackningText><forpackningsTypInreLx>BAG</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>Y</formanLx><forpackningText>DubbelkammarpÃ¥sar (Sleep Safe), 2 x 5000 ml</forpackningText><forpackningsTypInreLx>BAG</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <pristypLx>GEN</pristypLx><receptbelagdLx>Y</receptbelagdLx><varunummer>075906</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
@@ -941,7 +941,7 @@
                     <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
-                    <formanLx>Y</formanLx><forpackningText>Dubbelkammarpåsar (Stay Safe), 4 x 2000 ml</forpackningText><forpackningsTypInreLx>BAG</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <formanLx>Y</formanLx><forpackningText>DubbelkammarpÃ¥sar (Stay Safe), 4 x 2000 ml</forpackningText><forpackningsTypInreLx>BAG</forpackningsTypInreLx><forsaljningsRestriktionLx>-</forsaljningsRestriktionLx><forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <gtin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <innehallerLatexLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <pristypLx>GEN</pristypLx><receptbelagdLx>Y</receptbelagdLx><varunummer>009560</varunummer><varutypLx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
@@ -978,7 +978,7 @@
                 <excludedFromDelivery>true</excludedFromDelivery><updatedSinceDelivery>false</updatedSinceDelivery><exportable>true</exportable>
             </lmProduktResult>
             <lmProduktResult>
-                <nplId>20001229000141</nplId><produktnamn>Seloken ZOC</produktnamn><antidot>N</antidot><atcKod>C07AB02</atcKod><avvikelseParallellImport>Blisterkartorna är märkta både Seloken Zoc 47,5 mg och Seloken Zoc 50 mg.</avvikelseParallellImport><ddd>0.15</ddd><dosBryttillstand>N</dosBryttillstand><dosBryttillstandHallbar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <nplId>20001229000141</nplId><produktnamn>Seloken ZOC</produktnamn><antidot>N</antidot><atcKod>C07AB02</atcKod><avvikelseParallellImport>Blisterkartorna Ã¤r mÃ¤rkta bÃ¥de Seloken Zoc 47,5 mg och Seloken Zoc 50 mg.</avvikelseParallellImport><ddd>0.15</ddd><dosBryttillstand>N</dosBryttillstand><dosBryttillstandHallbar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                 <doseringsenhet>-</doseringsenhet><enhetDdd>g</enhetDdd><enhetStyrka>64</enhetStyrka><godkannandeDatum>2000-12-29T00:00:00+01:00</godkannandeDatum><godkannandeProcedur>1</godkannandeProcedur><godkannandenr>155930</godkannandenr><lakemedelsform>PRRETA</lakemedelsform><lakemedelsformGrupp>OSD</lakemedelsformGrupp><narkotikaKlass>0</narkotikaKlass><originalNplid>19880429000045</originalNplid><parallellimportFran>FIN</parallellimportFran><sarskildaLakemedel>1</sarskildaLakemedel><styrka>50.000</styrka><styrkaKlartext>50 mg</styrkaKlartext><tillhandahalls>N</tillhandahalls><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                 <utbytbar>N</utbytbar><veterinarlakemedel>N</veterinarlakemedel><asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                 <forsaljningsstoppLx>N</forsaljningsstoppLx><forsaljningsstoppKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
@@ -1100,7 +1100,7 @@
                 <produktIntressenter>
                     <intressentRollLx>SBANSF</intressentRollLx><namn>Apoteket AB Produktion &amp; Laboratorier (APL)</namn>
                     <intressentAdress>
-                        <adress1>Prismavägen 2</adress1><adress2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                        <adress1>PrismavÃ¤gen 2</adress1><adress2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                         <adress3>141 75</adress3><adress4>Stockholm</adress4><landKod>SWE</landKod>
                     </intressentAdress>
                 </produktIntressenter>
@@ -1110,7 +1110,7 @@
                     <tillhandahallsLx>N</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <antalKlartext>500 milliliter</antalKlartext><antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
-                    <antalNumeriskEnhetLx>ML</antalNumeriskEnhetLx><antalNumeriskt>500.000</antalNumeriskt><artikelBenamning>Borsyra APL öronsköljv 20mg/ml</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>ML</antalNumeriskEnhetLx><antalNumeriskt>500.000</antalNumeriskt><artikelBenamning>Borsyra APL Ã¶ronskÃ¶ljv 20mg/ml</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <avregistreringsdatum>2008-07-01T00:00:00+02:00</avregistreringsdatum><beskrivning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
@@ -1141,7 +1141,7 @@
                 <excludedFromDelivery>false</excludedFromDelivery><updatedSinceDelivery>false</updatedSinceDelivery><exportable>true</exportable>
             </lmProduktResult>
             <lmProduktResult>
-                <nplId>20040916000507</nplId><produktnamn>Xolair®</produktnamn><antidot>N</antidot><atcKod>R03DX05</atcKod><avvikelseParallellImport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                <nplId>20040916000507</nplId><produktnamn>XolairÂ©</produktnamn><antidot>N</antidot><atcKod>R03DX05</atcKod><avvikelseParallellImport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                 <ddd>16.00</ddd><dosBryttillstand>N</dosBryttillstand><dosBryttillstandHallbar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                 <doseringsenhet>-</doseringsenhet><enhetDdd>mg</enhetDdd><enhetStyrka>64</enhetStyrka><godkannandeDatum>2005-10-25T00:00:00+02:00</godkannandeDatum><godkannandeProcedur>2</godkannandeProcedur><godkannandenr>212550</godkannandenr><lakemedelsform>PSSOIJ</lakemedelsform><lakemedelsformGrupp>PAR</lakemedelsformGrupp><narkotikaKlass>0</narkotikaKlass><originalNplid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                 <parallellimportFran xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
@@ -1177,7 +1177,7 @@
                     <gfromDatum>2008-10-16T00:00:00+02:00</gfromDatum><produktnamnTypLx>medprodnamelegal</produktnamnTypLx><namn>Xolair</namn><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                 </tillaggsnamn>
                 <tillaggsnamn>
-                    <gfromDatum>2008-10-16T00:00:00+02:00</gfromDatum><produktnamnTypLx>tradename</produktnamnTypLx><namn>Xolair®</namn><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <gfromDatum>2008-10-16T00:00:00+02:00</gfromDatum><produktnamnTypLx>tradename</produktnamnTypLx><namn>XolairÂ©</namn><tomDatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                 </tillaggsnamn>
                 <produktIntressenter>
                     <intressentRollLx>MAH</intressentRollLx><namn>Novartis Europharm Ltd</namn>
@@ -1190,7 +1190,7 @@
                     <intressentRollLx>AGENT</intressentRollLx><namn>Novartis Sverige AB</namn>
                     <intressentAdress>
                         <adress1>Box 1150</adress1><adress2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
-                        <adress3>183 11</adress3><adress4>Täby</adress4><landKod>SWE</landKod>
+                        <adress3>183 11</adress3><adress4>TÃ¤by</adress4><landKod>SWE</landKod>
                     </intressentAdress>
                 </produktIntressenter>
                 <lmArtiklar>
@@ -1198,7 +1198,7 @@
                     <dddPerForpackning>9.380</dddPerForpackning><tillhandahallsLx>Y</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <antalKlartext>1 styck</antalKlartext><antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
-                    <antalNumeriskEnhetLx>ST</antalNumeriskEnhetLx><antalNumeriskt>1.000</antalNumeriskt><artikelBenamning>Xolair, pulv och vätska till inj-vätska, lösning 150 mg Abacus Medicine Aps</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>ST</antalNumeriskEnhetLx><antalNumeriskt>1.000</antalNumeriskt><artikelBenamning>Xolair, pulv och vÃ¤tska till inj-vÃ¤tska, lÃ¶sning 150 mg Abacus Medicine Aps</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
@@ -1228,7 +1228,7 @@
                     <artikelIntressenter>
                         <intressentRollLx>PARDIS</intressentRollLx><namn>Abacus Medicine Aps</namn>
                         <intressentAdress>
-                            <adress1>Vesterbrogade 149</adress1><adress2>DK-1620 Köpenhamn V</adress2><adress3 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                            <adress1>Vesterbrogade 149</adress1><adress2>DK-1620 KÃ¶penhamn V</adress2><adress3 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                             <adress4 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                             <landKod>DNK</landKod>
                         </intressentAdress>
@@ -1244,7 +1244,7 @@
                     <dddPerForpackning>9.380</dddPerForpackning><tillhandahallsLx>N</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <antalKlartext>1 styck</antalKlartext><antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
-                    <antalNumeriskEnhetLx>ST</antalNumeriskEnhetLx><antalNumeriskt>1.000</antalNumeriskt><artikelBenamning>Xolair pu o vä inj, lö 150mg</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>ST</antalNumeriskEnhetLx><antalNumeriskt>1.000</antalNumeriskt><artikelBenamning>Xolair pu o vÃ¤ inj, lÃ¶ 150mg</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
@@ -1292,7 +1292,7 @@
                     <dddPerForpackning>9.380</dddPerForpackning><tillhandahallsLx>Y</tillhandahallsLx><tillhandahallsFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <antalKlartext>1 styck</antalKlartext><antalMultipel1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <antalMultipel2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
-                    <antalNumeriskEnhetLx>ST</antalNumeriskEnhetLx><antalNumeriskt>1.000</antalNumeriskt><artikelBenamning>Xolair, pulv och vätska till inj-vätska, lösning 150 mg Orifarm AB</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                    <antalNumeriskEnhetLx>ST</antalNumeriskEnhetLx><antalNumeriskt>1.000</antalNumeriskt><artikelBenamning>Xolair, pulv och vÃ¤tska till inj-vÃ¤tska, lÃ¶sning 150 mg Orifarm AB</artikelBenamning><artikelKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <artikelKommentarTlv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <asabKommentar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
                     <avregistreringsdatum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
@@ -1323,7 +1323,7 @@
                         <intressentRollLx>PARDIS</intressentRollLx><namn>Orifarm AB</namn>
                         <intressentAdress>
                             <adress1>Box 50231</adress1><adress2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
-                            <adress3>202 12</adress3><adress4>Malmö</adress4><landKod>SWE</landKod>
+                            <adress3>202 12</adress3><adress4>MalmÃ¶</adress4><landKod>SWE</landKod>
                         </intressentAdress>
                     </artikelIntressenter>
                     <forvaringsfall>
