@@ -8,7 +8,7 @@ setup(name='xpyze',
       author='Daniel Rodriguez',
       author_email='daro@seibostudios.se',
       url='http://seibostudios.se',
-      py_modules=['xpyze'],
+      py_modules=['xpyze', 'simplegit','monitoring'],
       scripts=['pyze']
      )
 
