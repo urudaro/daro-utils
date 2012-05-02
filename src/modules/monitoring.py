@@ -19,9 +19,10 @@ import os, os.path, datetime,  sys
        The modality of use depend on if the application is the one that publishes the status information or is the one that consumes it.
        The publisher
         ========
-        It is responsible of create the monitor file. It is usually dome in the main file of the application :
+        It is responsible of create the monitor file. It is usually done in the main file of the application :
             import monitoring
             monitoring.start_record ("SOME_APPLICATION", /some/directory/path)
+            import other_things
             
         The main application and all imported modules can publish information by:
         
