@@ -43,7 +43,7 @@ def py_element (ele,  strict=False):
             else:
                 if not key in result:
                     result [key] = []
-                result [key] += [py_element (ch)]
+                result [key] += [py_element (ch,  strict=True)]
         elif ch.nodeType == ch.ATTRIBUTE_NODE:
             result [ch.name + u"_"] = ch.value
         elif ch.nodeType == ch.TEXT_NODE:
@@ -64,6 +64,7 @@ def py_element (ele,  strict=False):
         result = result [result.keys () [0]]
     if s + u'xsi:nil' in result and  result [s + u'xsi:nil'] == u'true':
         result = None
+    if result == {}: result = u''
     return result
     
 def py_document (dom_doc, strict=False):
