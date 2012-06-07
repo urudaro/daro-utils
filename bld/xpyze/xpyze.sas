@@ -18,6 +18,7 @@
         {'from': '$xmod/simplegit.py', 'to': '.'},
         {'from': '$xmod/monitoring.py', 'to': '.'},
         {'from': 'src/scripts/pyze.py', 'to-file': 'pyze', 'chmod': '0744'},
+        {'from': 'src/scripts/xpyze.sh', 'to-file': 'xpyze', 'chmod': '0744'},
         {'from': '$xmod/setup.py', 'to': '.', 'chmod': '0744'}
       ]
       }
