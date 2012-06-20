@@ -146,6 +146,11 @@ class MONITOR_FILE (object):
         assert self.created
         self._load_data ()
         assert self.created_by_me ()
-        self._data [key] = repr(value)
+        if isinstance(value, unicode):
+            self._data [key] = value.encode('utf-8')
+        elif isinstance(value, str) or isinstance(value, basestring):
+            self._data [key] = value
+        else:
+            self._data [key] = repr(value)
         self._save_data()
 
