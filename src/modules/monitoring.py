@@ -52,8 +52,8 @@ def start_record (application_name,  directory_path="."):
     global record
     try:
         record = MONITOR_FILE (application_name,  dirpath=directory_path).create ()
-    except:
-        raise Exception
+    except Exception, e:
+        raise e
     
 
 class MONITOR_FILE (object):
@@ -64,7 +64,7 @@ class MONITOR_FILE (object):
     def __init__ (self, appl, dirpath="."):
         """Initialize with the monitor file name 'appl'.pid."""
         assert os.path.isdir (dirpath),  "Nonexistent dirpath: '%s'" % dirpath
-        dirpath = os.abspath (dirpath)
+        dirpath = os.path.abspath (dirpath)
         self._appl = appl
         self._fn = os.path.join (dirpath,  appl + ".pid")
         self.created = os.path.isfile (self._fn)
@@ -146,5 +146,6 @@ class MONITOR_FILE (object):
         assert self.created
         self._load_data ()
         assert self.created_by_me ()
-        self._data [key] = value
+        self._data [key] = repr(value)
         self._save_data()
+
