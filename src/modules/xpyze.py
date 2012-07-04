@@ -16,13 +16,29 @@ def py_element (ele,  strict=False):
     <a ... >
        <b ...>B1</b>
        <b ...>B2</b>
-       <c ...>B3</c>
+       <c ...>
+            C1
+            <d ...>
+                D1
+            </d>
+            C2
+       </c>
     </a>
     is converted in 
-    {'a':[{ ...,
-          'b': [{ ..., '_': 'B1'}, {..., '_':'B2'}],
-          'c': [{ ..., '_': 'B3'}]
-        }]
+    {
+    'a':[{ '__': 0, ...,
+            'b': [{ '__': 0, ..., 
+                    '_': [{'__': 0, '_': 'B1'}]}, 
+                { '__': 1, ..., 
+                    '_': [{'__': 0, '_': 'B2'}]
+            }],
+            'c': [{ '__': 2..., 
+                    '_': [{'__': 0, '_': 'C1'}, {'__': 2, '_': 'C2'}],
+                    'd': [{'__': 1, ...,
+                        '_': [{'__': 0, '_': 'D1'}]
+                    }]
+            }]
+    }]
     }
     Relaxed --   
     If multiple subnodes has the same tag, they are converted into al Python list.
@@ -30,6 +46,7 @@ def py_element (ele,  strict=False):
     result = {}
     rc = []
     chs = ele.childNodes
+    ordinal = -1
     for ch in chs:
         if ch.nodeType == ch.ELEMENT_NODE:
             key = ch.tagName
@@ -43,35 +60,54 @@ def py_element (ele,  strict=False):
             else:
                 if not key in result:
                     result [key] = []
-                result [key] += [py_element (ch,  strict=True)]
+                d = py_element (ch,  strict=True)
+                if d:
+                    ordinal += 1
+                    d ['__'] = ordinal
+                    result [key] += [d]
         elif ch.nodeType == ch.ATTRIBUTE_NODE:
             result [ch.name + u"_"] = ch.value
         elif ch.nodeType == ch.TEXT_NODE:
-            rc.append (ch.data)
-    txt =  (''.join (rc)).strip ()
-    if txt != '':
-        result [u"_"] = txt
-    s = u""
-    if len (result) != 0:
-        s = u"_:"
+            text = ch.data.strip()
+            if text:
+                if not strict:
+                    rc.append (text)
+                else:
+                    ordinal += 1
+                    if not '_' in result:
+                        result ['_'] = []
+                    d = {'__': ordinal,  '_': text}
+                    result ['_'] += [d]
+    if not strict:
+        txt =  (''.join (rc)).strip ()
+        if txt != '':
+            result [u"_"] = txt
+    attr_prefix = u"_:"
     attrmap = ele.attributes
     attrs = attrmap.keys()
     for attr in attrs:
-        result [s + attr] = attrmap [attr].value
-    if len (result) == 1 and "_" in result:
-        result = result ["_"]
-    elif len (result) == 1 and isinstance (result [result.keys () [0]],  list):
-        result = result [result.keys () [0]]
-    if s + u'xsi:nil' in result and  result [s + u'xsi:nil'] == u'true':
-        result = None
-    if result == {}: result = u''
+        result [attr_prefix + attr] = attrmap [attr].value
+    if not strict:
+        if len (result) == 1 and "_" in result:
+            result = result ["_"]
+        elif len (result) == 1 and isinstance (result [result.keys () [0]],  list):
+            result = result [result.keys () [0]]
+        if attr_prefix + u'xsi:nil' in result and  result [attr_prefix + u'xsi:nil'] == u'true':
+            result = None
+        if result == {}: result = u''
     return result
     
 def py_document (dom_doc, strict=False):
     """Convert xml-dom document into a Python data structure"""
     top_element = dom_doc.documentElement
     result = {}
-    result [top_element.tagName] =  py_element (top_element,  strict=strict)
+    if not strict:
+        result [top_element.tagName] =  py_element (top_element)
+    else:
+        d = py_element (top_element,  strict=True)
+        d ['__'] = 0
+        result [top_element.tagName] =  [d]
+        
     return result
     
 def ignoring_keys (d,  keys):

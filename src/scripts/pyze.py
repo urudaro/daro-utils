@@ -15,13 +15,14 @@ def addressed_obj (obj, k):
     """Subobject addressed by the key 'k'"""
     if isinstance (obj,  dict):
         if k in obj:
-            o = obj [k]
+            o = obj.get (k)
             return o
-        else:
-            sys.exit (1)
-    elif isinstance (obj, list) or isinstance (obj, tuple):
-        i = int (k)
-        o = obj [i]
+    elif k.isdigit and (isinstance (obj, list) or isinstance (obj, tuple)):
+        try:
+            i = int (k)
+            o = obj [i]
+        except:
+            sys.exit (2)
         return o
     else:
         sys.exit (1)
@@ -72,8 +73,16 @@ elif  options.key:
     ks = options.key
     ks = ks.split ("/")
     o = obj
+    last_k = ""
     for k in ks:
+        k = last_k + k
+        last_o = o
         o = addressed_obj  (o, k)
+        if o != None:
+            last_k = ""
+        else:
+            o = last_o
+            last_k = k + "/"
     pprint.pprint (o)
 else:
     pprint.pprint (obj)
