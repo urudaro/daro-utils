@@ -27,7 +27,7 @@ class REPOSITORY (object):
         self.dotgit = os.path.join (base_path,  ".git")    
         assert os.path.isdir (self.dotgit),  "%s is not a valid git-repository" % self.dotgit
         self.base_path = base_path
-        self.git_alias = "git --git-dir=%s" % self.dotgit
+        self.git_alias = "git --git-dir=%s --work-tree=%s" % (self.dotgit, self.base_path)
         self._tags = None
         
     def _load_tags (self):
@@ -58,6 +58,12 @@ class REPOSITORY (object):
         if not self._tags: self._load_tags ()
         return self._tags
         
+    def first_tag (self):
+        return self.tags ()[0]
+        
+    def last_tag (self):
+        return self.tags ()[-1]
+        
     def tag (self, d= "3000"):
         """Latest tag earlier then 'd'"""
         latest = None
@@ -67,7 +73,7 @@ class REPOSITORY (object):
             else:
                 break
         return latest
-                
+
     def has_tag (self,  tn):
         return tn in self.tags ()
         
