@@ -101,6 +101,13 @@ class REPOSITORY (object):
         gitcmd = '%s commit -m "%s"' % (self.git_alias,  m)
         return output_lines (gitcmd)
         
+    def log (self, filename=""):
+        """history"""
+        if filename != "":
+            filename = " -- " + filename
+        gitcmd = '%s log %s' % (self.git_alias, filename)
+        return output_lines(gitcmd)
+        
 def test_git ():
     pass ## TODO
     
