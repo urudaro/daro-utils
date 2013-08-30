@@ -9,6 +9,6 @@ setup(name='xpyze',
       author_email='daro@seibostudios.se',
       url='http://seibostudios.se',
       py_modules=['xpyze', 'simplegit','monitoring'],
-      scripts=['pyze', 'xpyze']
+      scripts=['pyze', 'xpyze', 'sample_files']
      )
 

@@ -23,4 +23,5 @@ filelist = [os.path.basename (pth) for pth in pathlist]
 
 if len (filelist) > args.N:
     selected_files = random.sample (filelist, args.N)
-    print repr (selected_files)
+    for fn in selected_files:
+        print '"%s"' % fn

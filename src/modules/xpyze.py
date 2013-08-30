@@ -11,7 +11,7 @@
 def py_element (ele,  strict=False):
     """Process recursively the individual element 'ele' converting it into a python dictionary.
     Each subnode is converted in an item in this dictionary. 
-    there are to modes of converting xml into python:
+    There are to modes of converting xml into python:
     Strict -- Evrything is converted into dictionaries, each xml tag is converted in a key and elements in items of a  list.
     <a ... >
        <b ...>B1</b>
@@ -24,7 +24,7 @@ def py_element (ele,  strict=False):
             C2
        </c>
     </a>
-    is converted in 
+    is converted into:
     {
     'a':[{ '__': 0, ...,
             'b': [{ '__': 0, ..., 
@@ -169,10 +169,10 @@ if __name__ == '__main__':
                       help = "Generate python in strict mode")
 
     parser.add_option("-k", "--ignore_keys", dest="keys",
-                      help="Ignore keys in the output. Eg: -k xlns, npl")
+                      help="Ignore given keys in the output. Eg: -k xlns, npl")
 
     parser.add_option("-e", "--oel", dest="oel",
-                      help="Key combinations reprenting one element lists. Eg: -e patients/patient, prices/price")
+                      help="Key combinations represnting one element lists. Eg: -e patients/patient, prices/price")
 
     (options, args) = parser.parse_args()
 

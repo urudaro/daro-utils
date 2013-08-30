@@ -27,26 +27,40 @@ def addressed_obj (obj, k):
     else:
         sys.exit (1)
 
+import argparse
+parser = argparse.ArgumentParser(description="Retrieve data from Python structured data")
+parser.add_argument('-k','--key', help='"Dictionary key or index in a list"')
+parser.add_argument('-i','--infn', help="Path of the input file other than stdin")
+parser.add_argument('-t','--ptype', help="Path of the input file other than stdin")
+parser.add_argument('-r','--rep', action="store_true",  default=False)
+parser.add_argument('-v','--verbose', action="store_true",  default=False)
 
-usage = "usage: %prog [options] arg"
-parser = optparse.OptionParser(usage)
+#parser.add_argument('command', choices=['test', 'lookup', 'search'],  help='Perform command. valid values: test, lookup, search.')
+global verbose_output
 
-parser.add_option("-k", "--key", dest="key",
-                  help="Dictionary key or index in a list")
+args = parser.parse_args ()
+verbose_output = args.verbose
 
-parser.add_option("-i", "--input", dest="infn",
-                  help="Path of the input file other than stdin")
+#
+#usage = "usage: %prog [options] arg"
+#parser = optparse.OptionParser(usage)
+#
+#parser.add_option("-k", "--key", dest="key",
+#                  help="Dictionary key or index in a list")
+#
+#parser.add_option("-i", "--infn", dest="infn",
+#                  help="Path of the input file other than stdin")
+#
+#parser.add_option("-t", "--type", dest="ptype",
+#                  help="Test Python type of the evaluated object. valid types: list, dict")
+#
+#parser.add_option("-r", "--report", dest="rep",
+#                  help="Report type and keys of the evaluated object")
+#
+#(options, args) = parser.parse_args()
 
-parser.add_option("-t", "--type", dest="ptype",
-                  help="Test Python type of the evaluated object")
-
-parser.add_option("-r", "--report", dest="rep",
-                  help="Report type and keys of the evaluated object")
-
-(options, args) = parser.parse_args()
-
-if options.infn:
-    f = file (options.infn)
+if args.infn:
+    f = file (args.infn)
     input = f.read()
     f.close()
 else:
@@ -54,7 +68,7 @@ else:
 
 obj = eval (input)
 
-if options.rep:
+if args.rep:
     l = len (obj)
     t = repr (type(obj))
     if isinstance (obj, dict):
@@ -62,15 +76,16 @@ if options.rep:
     else:
         ks = None
     pprint.pprint ({'len': l, 'type': t, 'keys': ks})
-
-if options.ptype:
-    t = eval (options.ptype)
+    sys.exit(0)
+    
+if args.ptype:
+    t = eval (args.ptype)
     if  isinstance (obj,  t):
         sys.exit (0)
     else:
         sys.exit (1)
-elif  options.key:
-    ks = options.key
+elif  args.key:
+    ks = args.key
     ks = ks.split ("/")
     o = obj
     last_k = ""
