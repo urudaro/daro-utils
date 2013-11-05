@@ -118,6 +118,32 @@ class REPOSITORY (object):
         self.last_gitcmd = '%s log %s' % (self.git_alias, filename)
         return output_lines(self.last_gitcmd)
         
+    def show(self, revision, filename):
+        """Show file from specific revision"""
+        self.last_gitcmd = '%s show %s:%s' % (self.git_alias, revision, filename)
+        return output_lines(self.last_gitcmd)
+    
+    def fist_commit (self, filename):
+        """Return first commit"""
+        self.last_gitcmd = '%s log --reverse -- %s' % (self.git_alias, filename)
+        first_hash = output_lines(self.last_gitcmd)[0].split('commit ')[1].strip()
+        return first_hash
+    
+    def last_commit (self, filename):
+        """Return last commit"""
+        self.last_gitcmd = '%s log -- %s' % (self.git_alias, filename)
+        last_hash = output_lines(self.last_gitcmd)[0].split('commit ')[1].strip()
+        return last_hash
+    
+    def diff_first (self, filename):
+        """Show files differences between first and last commits"""
+        self.last_gitcmd = '%s log --reverse -- %s' % (self.git_alias, filename)
+        first_hash = output_lines(self.last_gitcmd)[0].split('commit ')[1].strip()
+        self.last_gitcmd = '%s log -- %s' % (self.git_alias, filename)
+        last_hash = output_lines(self.last_gitcmd)[0].split('commit ')[1].strip()
+        self.last_gitcmd = '%s diff -u %s %s -- %s' % (self.git_alias, first_hash, last_hash, filename)
+        return output_lines(self.last_gitcmd)
+        
 def test_git ():
     pass ## TODO
     
