@@ -106,9 +106,12 @@ class REPOSITORY (object):
         self.last_gitcmd = "%s add %s" % (self.git_alias,  fn)
         return output_lines (self.last_gitcmd)
         
-    def commit (self,  m):
+    def commit (self,  m, username=None, email=None):
         """Commit added changes"""
-        self.last_gitcmd = '%s commit -m "%s"' % (self.git_alias,  m)
+        if username is None or email is None:
+            self.last_gitcmd = '%s commit -m "%s"' % (self.git_alias,  m)
+        else:
+            self.last_gitcmd = '%s commit -m "%s" --author="%s <%s>"' % (self.git_alias,  m, username, email)
         return output_lines (self.last_gitcmd)
         
     def log (self, filename=""):
