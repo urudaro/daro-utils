@@ -8,8 +8,7 @@
 # LastChangedBy: $LastChangedBy: $
 # HeadURL: $HeadURL: $
 
-import sys,  os,  pprint
-import optparse
+import sys,  pprint
 
 def addressed_obj (obj, k):
     """Subobject addressed by the key 'k'"""
@@ -31,8 +30,8 @@ import argparse
 parser = argparse.ArgumentParser(description="Retrieve data from Python structured data")
 parser.add_argument('-k','--key', help='"Dictionary key or index in a list"')
 parser.add_argument('-i','--infn', help="Path of the input file other than stdin")
-parser.add_argument('-t','--ptype', help="Path of the input file other than stdin")
-parser.add_argument('-r','--rep', action="store_true",  default=False)
+parser.add_argument('-t','--ptype', help="Test Python type of the evaluated object. valid types: list, dict")
+parser.add_argument('-r','--rep', action="store_true",  help='Report type and keys of the evaluated object', default=False)
 parser.add_argument('-v','--verbose', action="store_true",  default=False)
 
 #parser.add_argument('command', choices=['test', 'lookup', 'search'],  help='Perform command. valid values: test, lookup, search.')

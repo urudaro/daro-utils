@@ -7,7 +7,7 @@
 # LastChangedBy: $LastChangedBy: $
 # HeadURL: $HeadURL: $
 
-import os, os.path, datetime,  sys
+import os, os.path, datetime
 
 """This module is used for monitoring and locking purposes. Each application
        using this resource is responsible for creating it's own monitor file and can
