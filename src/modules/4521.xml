@@ -1,0 +1,50 @@
+<Interaction dateOfApproval="9999-01-01" id="4521">
+<InteractingParts>
+<InteractingPart id="1113">
+<Names>
+<Name langCode="sv" name="fentanyl"/>
+</Names>
+</InteractingPart>
+<InteractingPart id="1236">
+<Names>
+<Name langCode="sv" name="mikonazol"/>
+</Names>
+</InteractingPart>
+</InteractingParts>
+<Classifications>
+<Classification docClassification="0" sevClassification="D">
+<Combinations>
+<SubstanceFormCombination>
+<SubstanceForm interactingPartId="1236" drugFormGroupId="4" drugsPartId="5254"/>
+<SubstanceForm interactingPartId="1113" drugFormGroupId="0" drugsPartId="4310"/>
+</SubstanceFormCombination>
+<SubstanceFormCombination>
+<SubstanceForm interactingPartId="1236" drugFormGroupId="4" drugsPartId="5254"/>
+<SubstanceForm interactingPartId="1113" drugFormGroupId="4" drugsPartId="4384"/>
+</SubstanceFormCombination>
+<SubstanceFormCombination>
+<SubstanceForm interactingPartId="1236" drugFormGroupId="0" drugsPartId="5110"/>
+<SubstanceForm interactingPartId="1113" drugFormGroupId="4" drugsPartId="4384"/>
+</SubstanceFormCombination>
+<SubstanceFormCombination>
+<SubstanceForm interactingPartId="1236" drugFormGroupId="0" drugsPartId="5110"/>
+<SubstanceForm interactingPartId="1113" drugFormGroupId="0" drugsPartId="4310"/>
+</SubstanceFormCombination>
+</Combinations>
+</Classification>
+</Classifications>
+<Sections>
+<Section sectionTypeId="0" mlTextId="13284" mlTextVersion="2"/>
+<Section sectionTypeId="1" mlTextId="7308" mlTextVersion="4"/>
+<Section sectionTypeId="2" mlTextId="7309" mlTextVersion="1"/>
+<Section sectionTypeId="3" mlTextId="7288" mlTextVersion="7"/>
+</Sections>
+<References>
+<Reference referenceId="4151"/>
+<Reference referenceId="4152"/>
+<Reference referenceId="4153"/>
+<Reference referenceId="4162"/>
+<Reference referenceId="5371"/>
+<Reference referenceId="6204"/>
+</References>
+</Interaction>

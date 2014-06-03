@@ -47,12 +47,14 @@ def py_element (ele,  strict=False):
     rc = []
     chs = ele.childNodes
     ordinal = -1
+    first = True
     for ch in chs:
         if ch.nodeType == ch.ELEMENT_NODE:
             key = ch.tagName
             if not strict:
                 if key in result:
-                    if not isinstance (result [key], list):
+                    if first:
+                        first = False
                         result [key] = [result [key]]
                     result [key].append (py_element (ch))
                 else:
@@ -172,7 +174,7 @@ if __name__ == '__main__':
                       help="Ignore given keys in the output. Eg: -k xlns, npl")
 
     parser.add_option("-e", "--oel", dest="oel",
-                      help="Key combinations represnting one element lists. Eg: -e patients/patient, prices/price")
+                      help="Key combinations representing one element lists. Eg: -e patients/patient, prices/price")
 
     (options, args) = parser.parse_args()
 
