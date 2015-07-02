@@ -8,8 +8,10 @@
 # LastChangedBy: $LastChangedBy: $
 # HeadURL: $HeadURL: $
 
-import sys,  os,  pprint
-import optparse
+import sys
+import ast
+#import os
+import pprint
 
 def addressed_obj (obj, k):
     """Subobject addressed by the key 'k'"""
@@ -29,10 +31,12 @@ def addressed_obj (obj, k):
 
 import argparse
 parser = argparse.ArgumentParser(description="Retrieve data from Python structured data")
-parser.add_argument('-k','--key', help='"Dictionary key or index in a list"')
+parser.add_argument('-k','--key', help='"Value associated to a key in a dictionary or an index in a list"')
 parser.add_argument('-i','--infn', help="Path of the input file other than stdin")
-parser.add_argument('-t','--ptype', help="Path of the input file other than stdin")
-parser.add_argument('-r','--rep', action="store_true",  default=False)
+parser.add_argument('-t','--ptype', help="Check if the object is a dict or a list")
+parser.add_argument('-r','--rep', action="store_true",  default=False,  help="Report keys, type and len of object")
+parser.add_argument('-l','--ls', action="store_true",  default=False,  help="List keys in separated rows")
+parser.add_argument('-e','--regexp',  help="Filter dictionary matching regular expression")
 parser.add_argument('-v','--verbose', action="store_true",  default=False)
 
 #parser.add_argument('command', choices=['test', 'lookup', 'search'],  help='Perform command. valid values: test, lookup, search.')
@@ -41,24 +45,6 @@ global verbose_output
 args = parser.parse_args ()
 verbose_output = args.verbose
 
-#
-#usage = "usage: %prog [options] arg"
-#parser = optparse.OptionParser(usage)
-#
-#parser.add_option("-k", "--key", dest="key",
-#                  help="Dictionary key or index in a list")
-#
-#parser.add_option("-i", "--infn", dest="infn",
-#                  help="Path of the input file other than stdin")
-#
-#parser.add_option("-t", "--type", dest="ptype",
-#                  help="Test Python type of the evaluated object. valid types: list, dict")
-#
-#parser.add_option("-r", "--report", dest="rep",
-#                  help="Report type and keys of the evaluated object")
-#
-#(options, args) = parser.parse_args()
-
 if args.infn:
     f = file (args.infn)
     input = f.read()
@@ -66,7 +52,7 @@ if args.infn:
 else:
     input = sys.stdin.read()
 
-obj = eval (input)
+obj = ast.literal_eval (input)
 
 if args.rep:
     l = len (obj)
@@ -77,9 +63,28 @@ if args.rep:
         ks = None
     pprint.pprint ({'len': l, 'type': t, 'keys': ks})
     sys.exit(0)
-    
+
+if args.ls:
+    result = []
+    if isinstance (obj,  dict):
+        result = [x.encode ("utf8") for x in  obj.keys()]
+        result.sort()
+    print "\n".join (result)
+    sys.exit (0)
+
+if args.regexp:
+    if isinstance (obj,  dict):
+        import re
+        rexp = re.compile (args.regexp)
+        ks = filter (lambda x: rexp.search (x),  obj.keys())
+        result = pprint.pformat (dict ([(k, obj [k]) for k in ks]))
+        print result
+        sys.exit (0)
+    else:
+        sys.exit (1)
+
 if args.ptype:
-    t = eval (args.ptype)
+    t = ast.literal_eval (args.ptype)
     if  isinstance (obj,  t):
         sys.exit (0)
     else:
@@ -101,5 +106,3 @@ elif  args.key:
     pprint.pprint (o)
 else:
     pprint.pprint (obj)
-    
-    

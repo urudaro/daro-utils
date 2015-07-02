@@ -8,11 +8,13 @@
 # LastChangedBy: $LastChangedBy: $
 # HeadURL: $HeadURL: $
 
+
 def py_element (ele,  strict=False):
     """Process recursively the individual element 'ele' converting it into a python dictionary.
     Each subnode is converted in an item in this dictionary. 
     There are to modes of converting xml into python:
-    Strict -- Evrything is converted into dictionaries, each xml tag is converted in a key and elements in items of a  list.
+    Strict -- 
+    Evrything is converted into dictionaries, each xml tag is converted in a key and elements in items of a  list.
     <a ... >
        <b ...>B1</b>
        <b ...>B2</b>
@@ -41,8 +43,8 @@ def py_element (ele,  strict=False):
     }]
     }
     Relaxed --   
-    If multiple subnodes has the same tag, they are converted into al Python list.
-    If a key, value pair has the form x:{y:[...]} , it is converted into x: [...], ignoring the middle key y"""
+    If multiple subnodes have the same tag, they are converted into al Python list.
+    If a key-value pair has the form x:{y:[...]} , it is converted into x: [...], ignoring the middle key y"""
     result = {}
     rc = []
     chs = ele.childNodes
