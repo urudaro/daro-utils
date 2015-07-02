@@ -1,0 +1,36 @@
+<Interaction dateOfApproval="9999-01-01" id="1">
+<InteractingParts>
+<InteractingPart id="833">
+<Names>
+<Name langCode="sv" name="ciprofloxacin"/>
+</Names>
+</InteractingPart>
+<InteractingPart id="1270">
+<Names>
+<Name langCode="sv" name="aluminium"/>
+</Names>
+</InteractingPart>
+</InteractingParts>
+<Classifications>
+<Classification docClassification="3" sevClassification="D">
+<Combinations>
+<SubstanceFormCombination>
+<SubstanceForm interactingPartId="1270" drugFormGroupId="1" drugsPartId="5521"/>
+<SubstanceForm interactingPartId="833" drugFormGroupId="1" drugsPartId="3041"/>
+</SubstanceFormCombination>
+</Combinations>
+</Classification>
+</Classifications>
+<Sections>
+<Section sectionTypeId="0" mlTextId="132" mlTextVersion="4"/>
+<Section sectionTypeId="1" mlTextId="279" mlTextVersion="4"/>
+<Section sectionTypeId="2" mlTextId="280" mlTextVersion="4"/>
+<Section sectionTypeId="3" mlTextId="281" mlTextVersion="7"/>
+</Sections>
+<References>
+<Reference referenceId="5"/>
+<Reference referenceId="1"/>
+<Reference referenceId="4"/>
+<Reference referenceId="3"/>
+</References>
+</Interaction>

@@ -11,9 +11,9 @@
 
 def py_element (ele,  strict=False):
     """Process recursively the individual element 'ele' converting it into a python dictionary.
-    Each subnode is converted in an item in this dictionary. 
+    Each subnode is converted in an item in this dictionary.
     There are to modes of converting xml into python:
-    Strict -- 
+    Strict --
     Evrything is converted into dictionaries, each xml tag is converted in a key and elements in items of a  list.
     <a ... >
        <b ...>B1</b>
@@ -29,12 +29,12 @@ def py_element (ele,  strict=False):
     is converted into:
     {
     'a':[{ '__': 0, ...,
-            'b': [{ '__': 0, ..., 
-                    '_': [{'__': 0, '_': 'B1'}]}, 
-                { '__': 1, ..., 
+            'b': [{ '__': 0, ...,
+                    '_': [{'__': 0, '_': 'B1'}]},
+                { '__': 1, ...,
                     '_': [{'__': 0, '_': 'B2'}]
             }],
-            'c': [{ '__': 2..., 
+            'c': [{ '__': 2...,
                     '_': [{'__': 0, '_': 'C1'}, {'__': 2, '_': 'C2'}],
                     'd': [{'__': 1, ...,
                         '_': [{'__': 0, '_': 'D1'}]
@@ -42,19 +42,21 @@ def py_element (ele,  strict=False):
             }]
     }]
     }
-    Relaxed --   
+    Relaxed --
     If multiple subnodes have the same tag, they are converted into al Python list.
     If a key-value pair has the form x:{y:[...]} , it is converted into x: [...], ignoring the middle key y"""
     result = {}
     rc = []
     chs = ele.childNodes
     ordinal = -1
+    first = True
     for ch in chs:
         if ch.nodeType == ch.ELEMENT_NODE:
             key = ch.tagName
             if not strict:
                 if key in result:
-                    if not isinstance (result [key], list):
+                    if first:
+                        first = False
                         result [key] = [result [key]]
                     result [key].append (py_element (ch))
                 else:
@@ -98,7 +100,7 @@ def py_element (ele,  strict=False):
             result = None
         if result == {}: result = u''
     return result
-    
+
 def py_document (dom_doc, strict=False):
     """Convert xml-dom document into a Python data structure"""
     top_element = dom_doc.documentElement
@@ -109,9 +111,9 @@ def py_document (dom_doc, strict=False):
         d = py_element (top_element,  strict=True)
         d ['__'] = 0
         result [top_element.tagName] =  [d]
-        
+
     return result
-    
+
 def ignoring_keys (d,  keys):
     """Navigate recursivelly the object 'd' converting it by ignoring all the occurrencies of each key in the given list 'keys'."""
     if isinstance (d, list):
@@ -128,10 +130,10 @@ def ignoring_keys (d,  keys):
     else:
         result = d
     return result
-    
+
 def reduced_oel (d,  pairs):
     """Convert dictionaries representing one-element-lists to proper lists with one element
-    The argument pairs is a list of two element items. If the pair is ['alist', 'anelement'], 
+    The argument pairs is a list of two element items. If the pair is ['alist', 'anelement'],
     each occurrence of the sequence of keys 'alist': {'anelement: xyx} is converted in a oel (one element list): alist: [xyx]"""
     if isinstance (d, list):
         result = [reduced_oel (x,  pairs) for x in d]
@@ -147,7 +149,7 @@ def reduced_oel (d,  pairs):
     else:
         result = d
     return result
-    
+
 if __name__ == '__main__':
     import sys,  os,  pprint
     import optparse
@@ -167,14 +169,14 @@ if __name__ == '__main__':
                       help="Indent size")
 
     parser.add_option("-s", "--strict",
-                      action="store_true", default=False,  dest="strict", 
+                      action="store_true", default=False,  dest="strict",
                       help = "Generate python in strict mode")
 
     parser.add_option("-k", "--ignore_keys", dest="keys",
                       help="Ignore given keys in the output. Eg: -k xlns, npl")
 
     parser.add_option("-e", "--oel", dest="oel",
-                      help="Key combinations represnting one element lists. Eg: -e patients/patient, prices/price")
+                      help="Key combinations representing one element lists. Eg: -e patients/patient, prices/price")
 
     (options, args) = parser.parse_args()
 
@@ -187,14 +189,14 @@ if __name__ == '__main__':
         output = file (options.outfn,  "w+")
     else:
         output = sys.stdout
-        
+
     if options.itab:
         itab = int (options.itab)
     else:
         itab = 1
-        
+
     strict = options.strict
-    
+
     ignore_keys = False
     if options.keys:
         ignore_keys = True
@@ -217,7 +219,7 @@ if __name__ == '__main__':
             f.close()
         else:
             pairs = options.oel.split (",")
-            
+
         oel_pairs = {}
         for p in pairs:
             p = p.split ("/")
@@ -227,13 +229,13 @@ if __name__ == '__main__':
                 oel_pairs [p[0]] = []
             oel_pairs [p[0]] += [p [1]]
 
-    
+
     dom_document = xml.parse (input)
     pydata = py_document (dom_document, strict=options.strict)
     if ignore_keys:
         pydata = ignoring_keys (pydata, keys)
-        
+
     if generate_oel:
         pydata = reduced_oel (pydata,  oel_pairs)
-        
+
     pprint.pprint (pydata,  stream=output,  indent=1)

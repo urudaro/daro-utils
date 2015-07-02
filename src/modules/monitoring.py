@@ -7,7 +7,7 @@
 # LastChangedBy: $LastChangedBy: $
 # HeadURL: $HeadURL: $
 
-import os, os.path, datetime,  sys
+import os, os.path, datetime
 
 """This module is used for monitoring and locking purposes. Each application
        using this resource is responsible for creating it's own monitor file and can
@@ -84,7 +84,18 @@ class MONITOR_FILE (object):
         self._load_data ()
         assert self.created
         return self
-    
+        
+    def take_over (self):
+        """Take over the ownership of the monitoring and be the new publisher"""
+        self._load_data ()
+        pid = str (os.getpid ())
+        user = os.environ['LOGNAME']
+        self._data ['prev.pid'] = self._data ['pid']
+        self._data ['prev.user'] = self._data ['user']
+        self ['pid'] = pid
+        self ['user'] = user
+        self._save_data ()
+
     def destroy (self):
         """Destroy the monitor file."""
         assert self.created

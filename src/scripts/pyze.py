@@ -13,6 +13,7 @@ import ast
 #import os
 import pprint
 
+
 def addressed_obj (obj, k):
     """Subobject addressed by the key 'k'"""
     if isinstance (obj,  dict):
@@ -94,15 +95,18 @@ elif  args.key:
     ks = ks.split ("/")
     o = obj
     last_k = ""
+    result = None
     for k in ks:
         k = last_k + k
         last_o = o
         o = addressed_obj  (o, k)
-        if o != None:
+        if o:
+            result = o
             last_k = ""
         else:
+            result = None
             o = last_o
             last_k = k + "/"
-    pprint.pprint (o)
+    pprint.pprint (result)
 else:
     pprint.pprint (obj)
