@@ -8,7 +8,7 @@ setup(name='xpyze',
       author='Daniel Rodriguez',
       author_email='daro@seibostudios.se',
       url='http://seibostudios.se',
+      packages = ['tracrpc_client'], 
       py_modules=['xpyze', 'simplegit','monitoring'],
       scripts=['pyze', 'xpyze', 'sample_files']
      )
-

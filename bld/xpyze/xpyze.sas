@@ -17,6 +17,7 @@
         {'from': '$xmod/xpyze.py', 'to': '.'},
         {'from': '$xmod/simplegit.py', 'to': '.'},
         {'from': '$xmod/monitoring.py', 'to': '.'},
+        {'from': '$xmod/tracrpc_client/__init__.py', 'to': 'tracrpc_client'},
         {'from': 'src/scripts/pyze.py', 'to-file': 'pyze', 'chmod': '0744'},
         {'from': 'src/scripts/xpyze.sh', 'to-file': 'xpyze', 'chmod': '0744'},
         {'from': 'src/scripts/sample_files.py', 'to-file': 'sample_files', 'chmod': '0744'},
