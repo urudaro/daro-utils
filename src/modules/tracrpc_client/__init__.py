@@ -69,28 +69,31 @@ class TracXMLRPC (object):
                 yield ticket
         raise StopIteration
 
-    def ticket_query (self,  query):
+    def ticket_query (self,  query=u"",  paging=0):
         """Perform the 'query' retrieving tickets ids (integers)"""
         assert isinstance (query,  unicode)
         uquery = query.encode ("utf8")
+        uquery = uquery.replace ("&",  "\\&").replace ("|",  "\\|")
+        if not "max=" in uquery:
+            uquery += "&max=%d" % paging
         p = self.trac_connection
-        result = p.ticket.query(uquery.replace ("&",  "\\&").replace ("|",  "\\|"))
-        return map (int,  result)
+        result = p.ticket.query(uquery)
+        return result
 
     def tickets_ids (self):
         """List over all the ids in the whole ticket database"""
         if not self._tickets_ids:
-            self._tickets_ids = sorted (self.ticket_query(u"max=1000000"))
+            self._tickets_ids = sorted (self.ticket_query(u"max=0"))
         return self._tickets_ids
 
     def __len__(self):
         return len (self.tickets_ids())
-        
+
     def highest_id (self):
         return self.tickets_ids () [-1]
-        
+
     def top_ticket (self):
-        return self.ticket_obj (self.highest_id)
+        return self.ticket_obj (self.highest_id ())
 
     def has_unique_ticket (self,  summary):
         """Is there one and only one ticket with the given 'summary'?"""
@@ -128,7 +131,7 @@ class TracXMLRPC (object):
         p = self.trac_connection
         result = p.ticket.get (str(id))
         return result
-        
+
     def ticket_obj (self,  id):
         return TracTicket (id,  self)
 
@@ -218,14 +221,36 @@ class TracTicket (object):
     def attributes_values (self,  fields=[]):
         """a dictionary with (field,values) for each field which is a valid field for the ticket"""
         assert self._attributes,  "invalid ticket %i" % self.id
-        values = {f: self.ticket_out ().get (f,  u'') for f in fields if f in self._fields}
+        values = {f: self.attributes ().get (f,  u'') for f in fields if f in self._fields}
         return values
+
+    def update (self,  attrs=[],  comm=u''):
+        """Update the ticket based on a list (attr) consisting of a dictionary {fld:value, ...} there each 'fld' is a valid field"""
+        data = self.attributes ()
+        updated_attrs = {}
+        for fld in attrs:
+            assert fld in self._fields
+            value = attrs [fld]
+            if not fld in data or data [fld] != value:
+                updated_attrs [fld] = value
+            data [fld] = value
+        if updated_attrs:
+            comm = "XMLRPC: update %s %s. %s" % (self.id,  repr (updated_attrs),  comm)
+            u = self.trac.trac_connection.ticket.update (self.id, comm, data)
+            assert self.id == u [0]
+            self._created = u [1]
+            self._changed = u [2]
+            self._attributes = u [3].copy()
+        else:
+            comm = "Nothing to update in %s. %s" % (self.id,  comm)
+        logger.info (comm)
 
     def attribute_value (self,  fld):
         assert self._attributes,  "invalid ticket %i" % self.id
         result = self.attributes_values (fields=[fld]).get (fld, u'')
         if isinstance (result,  str):
             result = unicode (result,  'utf8')
+
         return result
 
     def set_attribute (self,  fld,  value=u'',  set_action=[],  comm=u''):
@@ -237,7 +262,8 @@ class TracTicket (object):
         data = self.attributes ()
         #data ['action'] = set_action
         data [fld] = value
-        u = self.trac.trac_connection.ticket.update (self.id,"XMLRPC: %s attribute %s -->> %s. %s" % (self.id,  fld,  data [fld],  comm), data)
+        comm = "XMLRPC: %s attribute %s -->> %s. %s" % (self.id,  fld,  data [fld],  comm)
+        u = self.trac.trac_connection.ticket.update (self.id ,comm , data)
         assert self.id == u [0]
         self._created = u [1]
         self._changed = u [2]

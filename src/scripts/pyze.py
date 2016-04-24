@@ -20,7 +20,10 @@ def addressed_obj (obj, k):
         if k in obj:
             o = obj.get (k)
             return o
-    elif k.isdigit and (isinstance (obj, list) or isinstance (obj, tuple)):
+        elif k.isdigit ():
+            o = obj.get (int(k))
+            return o
+    elif k.isdigit() and (isinstance (obj, list) or isinstance (obj, tuple)):
         try:
             i = int (k)
             o = obj [i]
@@ -36,8 +39,9 @@ parser.add_argument('-k','--key', help='"Value associated to a key in a dictiona
 parser.add_argument('-i','--infn', help="Path of the input file other than stdin")
 parser.add_argument('-t','--ptype', help="Check if the object is a dict or a list")
 parser.add_argument('-r','--rep', action="store_true",  default=False,  help="Report keys, type and len of object")
-parser.add_argument('-l','--ls', action="store_true",  default=False,  help="List keys in separated rows")
+parser.add_argument('-l','--ls', action="store_true",  default=False,  help="List keys in separate rows")
 parser.add_argument('-e','--regexp',  help="Filter dictionary matching regular expression")
+parser.add_argument('-s','--sequence', action="store_true",  default=False,  help="Output as a list")
 parser.add_argument('-v','--verbose', action="store_true",  default=False)
 
 #parser.add_argument('command', choices=['test', 'lookup', 'search'],  help='Perform command. valid values: test, lookup, search.')
@@ -69,7 +73,9 @@ if args.ls:
     result = []
     if isinstance (obj,  dict):
         result = [x.encode ("utf8") for x in  obj.keys()]
-        result.sort()
+    elif isinstance (obj,  list) or isinstance (obj,  tuple):
+        result = [repr(x) for x in  obj]
+    result.sort()
     print "\n".join (result)
     sys.exit (0)
 
@@ -108,5 +114,12 @@ elif  args.key:
             o = last_o
             last_k = k + "/"
     pprint.pprint (result)
+elif args.sequence:
+    if isinstance (obj,  dict):
+        pprint.pprint (obj.keys())
+    elif isinstance (obj,  list) or isinstance (obj,  tuple):
+        print repr(obj)
+    else:
+        pprint.pprint (obj)
 else:
     pprint.pprint (obj)
