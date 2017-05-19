@@ -12,7 +12,7 @@
 def py_element (ele,  strict=False):
     """Process recursively the individual element 'ele' converting it into a python dictionary.
     Each subnode is converted in an item in this dictionary.
-    There are to modes of converting xml into python:
+    There are two modes of converting xml into python:
     Strict --
     Evrything is converted into dictionaries, each xml tag is converted in a key and elements in items of a  list.
     <a ... >
@@ -49,16 +49,14 @@ def py_element (ele,  strict=False):
     rc = []
     chs = ele.childNodes
     ordinal = -1
-    first = True
     for ch in chs:
         if ch.nodeType == ch.ELEMENT_NODE:
             key = ch.tagName
             if not strict:
                 if key in result:
-                    if first:
-                        first = False
-                        result [key] = [result [key]]
-                    result [key].append (py_element (ch))
+                    if not isinstance (result [key],  list):
+                        result [key] = [result [key]]                        
+                    result [key].append(py_element (ch))
                 else:
                     result [key] = py_element (ch)
             else:
