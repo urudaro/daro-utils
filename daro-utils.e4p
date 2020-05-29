@@ -1,44 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project daro-utils -->
-<!-- Saved: 2015-11-17, 16:29:41 -->
-<!-- Copyright (C) 2015 ,  -->
+<!-- Saved: 2020-05-25, 00:44:57 -->
+<!-- Copyright (C) 2020 ,  -->
 <Project version="5.1">
   <Language>en_US</Language>
   <Hash>8bf4448ea0921ff7e1865fb0c6739e877c0b0513</Hash>
   <ProgLanguage mixed="0">Python2</ProgLanguage>
   <ProjectType>Console</ProjectType>
-  <Description></Description>
   <Version>0.1</Version>
   <Author></Author>
   <Email></Email>
-  <Eol index="-1"/>
   <Sources>
+    <Source>bld/xpyze/SConstruct</Source>
     <Source>bld/xpyze/xpyze-0.1/xpyze/build/lib.linux-x86_64-2.7/monitoring.py</Source>
-    <Source>bld/xpyze/xpyze-0.1/xpyze/build/lib.linux-x86_64-2.7/xpyze.py</Source>
     <Source>bld/xpyze/xpyze-0.1/xpyze/build/lib.linux-x86_64-2.7/simplegit.py</Source>
+    <Source>bld/xpyze/xpyze-0.1/xpyze/build/lib.linux-x86_64-2.7/xpyze.py</Source>
     <Source>bld/xpyze/xpyze-0.1/xpyze/monitoring.py</Source>
     <Source>bld/xpyze/xpyze-0.1/xpyze/setup.py</Source>
-    <Source>bld/xpyze/xpyze-0.1/xpyze/xpyze.py</Source>
     <Source>bld/xpyze/xpyze-0.1/xpyze/simplegit.py</Source>
+    <Source>bld/xpyze/xpyze-0.1/xpyze/xpyze.py</Source>
+    <Source>bld/xpyze/xpyze.sas</Source>
+    <Source>src/modules/__init__.py</Source>
     <Source>src/modules/monitoring.py</Source>
     <Source>src/modules/setup.py</Source>
-    <Source>src/modules/xpyze.py</Source>
     <Source>src/modules/simplegit.py</Source>
-    <Source>src/scripts/sample_files.py</Source>
+    <Source>src/modules/tracrpc_client/__init__.py</Source>
+    <Source>src/modules/xpyze.py</Source>
     <Source>src/scripts/dbmove.py</Source>
     <Source>src/scripts/pyze.py</Source>
-    <Source>__init__.py</Source>
-    <Source>src/__init__.py</Source>
-    <Source>src/modules/__init__.py</Source>
-    <Source>bld/xpyze/SConstruct</Source>
-    <Source>bld/xpyze/xpyze.sas</Source>
-    <Source>src/modules/tracrpc_client/__init__.py</Source>
+    <Source>src/scripts/sample_files.py</Source>
   </Sources>
-  <Forms/>
-  <Translations/>
-  <Resources/>
-  <Interfaces/>
   <Others>
     <Other>.gitignore</Other>
   </Others>
@@ -144,9 +136,6 @@
         </value>
       </dict>
     </VcsOptions>
-    <VcsOtherData>
-      <dict/>
-    </VcsOtherData>
   </Vcs>
   <FiletypeAssociations>
     <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>

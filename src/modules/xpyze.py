@@ -179,12 +179,12 @@ if __name__ == '__main__':
     (options, args) = parser.parse_args()
 
     if options.infn:
-        input = file (options.infn)
+        input = open (options.infn)
     else:
         input = sys.stdin
 
     if options.outfn:
-        output = file (options.outfn,  "w+")
+        output = open (options.outfn,  "w+")
     else:
         output = sys.stdout
 
@@ -200,7 +200,7 @@ if __name__ == '__main__':
         ignore_keys = True
         if options.keys [0] == "@":
             fn = options.keys [1:]
-            f = file (fn)
+            f = open (fn)
             keys = f.readlines()
             f.close()
         else:
@@ -212,7 +212,7 @@ if __name__ == '__main__':
         generate_oel = True
         if options.oel [0] == "@":
             fn = options.oel [1:]
-            f = file (fn)
+            f = open (fn)
             pairs = f.readlines()
             f.close()
         else:

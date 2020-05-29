@@ -51,7 +51,7 @@ args = parser.parse_args ()
 verbose_output = args.verbose
 
 if args.infn:
-    f = file (args.infn)
+    f = open (args.infn)
     input = f.read()
     f.close()
 else:
@@ -76,7 +76,7 @@ if args.ls:
     elif isinstance (obj,  list) or isinstance (obj,  tuple):
         result = [repr(x) for x in  obj]
     result.sort()
-    print "\n".join (result)
+    pprint.pprint("\n".join(result))
     sys.exit (0)
 
 if args.regexp:
@@ -85,7 +85,7 @@ if args.regexp:
         rexp = re.compile (args.regexp)
         ks = filter (lambda x: rexp.search (x),  obj.keys())
         result = pprint.pformat (dict ([(k, obj [k]) for k in ks]))
-        print result
+        pprint.pprint(result)
         sys.exit (0)
     else:
         sys.exit (1)
@@ -118,7 +118,7 @@ elif args.sequence:
     if isinstance (obj,  dict):
         pprint.pprint (obj.keys())
     elif isinstance (obj,  list) or isinstance (obj,  tuple):
-        print repr(obj)
+        pprint.pprint (obj)
     else:
         pprint.pprint (obj)
 else:

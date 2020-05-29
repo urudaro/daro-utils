@@ -1,3 +1,9 @@
+
+bld/
+src/_scripts
+src/build
+src/dist
+src/MANIFEST
 .eric6project/
 _eric6project/
 .eric5project/

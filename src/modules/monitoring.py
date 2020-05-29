@@ -52,7 +52,7 @@ def start_record (application_name,  directory_path="."):
     global record
     try:
         record = MONITOR_FILE (application_name,  dirpath=directory_path).create ()
-    except Exception, e:
+    except Exception as e:
         raise e
     
 
