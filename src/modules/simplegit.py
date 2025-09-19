@@ -36,7 +36,7 @@ class REPOSITORY (object):
         if email:
             e = "-c user.email=%s " % email
         c = u + e
-        self.git_alias = "git %s--git-dir=%s --work-tree=%s" % (c,  self.dotgit, self.base_path)
+        self.git_alias = "git %s --git-dir=%s --work-tree=%s" % (c,  self.dotgit, self.base_path)
         self.last_gitcmd = ""
         self._tags = None
         

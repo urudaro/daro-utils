@@ -8,6 +8,9 @@
 # LastChangedBy: $LastChangedBy: $
 # HeadURL: $HeadURL: $
 
+import sys
+py3ver = sys.version_info.major == 3
+py2ver = sys.version_info.major == 2
 
 def py_element (ele,  strict=False):
     """Process recursively the individual element 'ele' converting it into a python dictionary.
@@ -92,8 +95,12 @@ def py_element (ele,  strict=False):
     if not strict:
         if len (result) == 1 and "_" in result:
             result = result ["_"]
-        elif len (result) == 1 and isinstance (result [result.keys () [0]],  list):
-            result = result [result.keys () [0]]
+        elif len (result) == 1 and isinstance (result, dict):
+            if py2ver:
+                key_0 = result.keys () [0]
+            else:
+                key_0 = [*result][0]
+            result = result [key_0]
         if attr_prefix + u'xsi:nil' in result and  result [attr_prefix + u'xsi:nil'] == u'true':
             result = None
         if result == {}: result = u''
