@@ -1,0 +1,39 @@
+# daro-utils: General Utilities for BIKT/Drugle Project
+#
+# This package does NOT provide a top-level "daro" or "daro_utils" module.
+# Instead, it installs individual top-level modules.
+# After installation, you can import:
+#   import xpyze                    # XML/SOAP utilities
+#   import simplegit                # Git helper utilities
+#   import monitoring               # Monitoring utilities
+#   from tracrpc_client import ...  # Trac RPC client
+#
+# To build: pip install build && python -m build
+
+[project]
+name = "daro-utils"
+version = "1.0.0"
+description = "General utilities for drugle project"
+authors = [
+    { name="Daniel Rodríguez", email="daro@seibostudios.se" },
+]
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "http://seibostudios.se"
+
+# Setuptools configuration: exposes individual modules (NOT a namespace package)
+[tool.setuptools]
+package-dir = { "" = "src/modules" }
+py-modules = ["xpyze", "simplegit", "monitoring"]  # Single-file modules -> import xpyze, etc.
+packages = ["tracrpc_client"]  # Subpackage -> from tracrpc_client import ...
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
