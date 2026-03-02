@@ -7,7 +7,15 @@
 # LastChangedBy: $LastChangedBy: $
 # HeadURL: $HeadURL: $
 
-import os, os.path, datetime
+import os, os.path, datetime, sys
+
+py3ver = sys.version_info.major == 3
+py2ver = sys.version_info.major == 2
+
+try:
+    unicode  # Python 2  # noqa
+except NameError:
+    unicode = str  # Python 3
 
 """This module is used for monitoring and locking purposes. Each application
        using this resource is responsible for creating it's own monitor file and can
@@ -73,7 +81,7 @@ class MONITOR_FILE (object):
     def create (self):
         """Create the monitor file."""
         assert not self.created, "File '%s' already exists" % (self.name ())
-        f = file (self._fn,  "w+")
+        f = open (self._fn,  "w+")
         pid = str (os.getpid ())
         user = os.environ['LOGNAME']
         t = datetime.datetime.now ().isoformat ()
@@ -118,7 +126,7 @@ class MONITOR_FILE (object):
     def _load_data (self):
         self._data = {}
         if self.created:
-            f = file (self._fn)
+            f = open (self._fn)
             lines = f.readlines ()
             f.close ()
             for line in lines:
@@ -137,7 +145,7 @@ class MONITOR_FILE (object):
         assert self.created
         assert self.created_by_me ()
         lines = [k + ": " + self._data [k] + "\n" for k in self._data.keys () ]
-        f = file (self._fn,  "w+")
+        f = open (self._fn,  "w+")
         f.writelines (lines)
         f.close ()
 
@@ -157,11 +165,14 @@ class MONITOR_FILE (object):
         assert self.created
         self._load_data ()
         assert self.created_by_me ()
-        if isinstance(value, unicode):
-            self._data [key] = value.encode('utf-8')
-        elif isinstance(value, str) or isinstance(value, basestring):
+        if py2ver and isinstance (value, unicode):
+            self._data [key] = value.encode ('utf-8')
+        elif py2ver and isinstance (value, basestring):
+            self._data [key] = value
+        elif py3ver and isinstance (value, bytes):
+            self._data [key] = value.decode ('utf-8')
+        elif py3ver and isinstance (value, unicode):
             self._data [key] = value
         else:
-            self._data [key] = repr(value)
-        self._save_data()
-
+            self._data [key] = repr (value)
+        self._save_data ()

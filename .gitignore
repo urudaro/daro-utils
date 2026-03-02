@@ -1,5 +1,6 @@
 
-bld/
+bld
+build
 src/_scripts
 src/build
 src/dist
