@@ -18,6 +18,7 @@ authors = [
     { name="Daniel Rodríguez", email="daro@seibostudios.se" },
 ]
 requires-python = ">=3.6"
+license = "MIT"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
@@ -27,13 +28,15 @@ dependencies = []
 [project.urls]
 Homepage = "http://seibostudios.se"
 
+[project.scripts]
+xpyze = "xpyze_cli:main"
+
 # Setuptools configuration: exposes individual modules (NOT a namespace package)
 [tool.setuptools]
 package-dir = { "" = "src/modules" }
-py-modules = ["xpyze", "simplegit", "monitoring"]  # Single-file modules -> import xpyze, etc.
+py-modules = ["xpyze", "xpyze_cli", "simplegit", "monitoring"]  # Single-file modules -> import xpyze, etc.
 packages = ["tracrpc_client"]  # Subpackage -> from tracrpc_client import ...
 
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
-
